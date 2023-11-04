@@ -1,14 +1,24 @@
 :root {
   --clr-gray: #030712;
+  --clr-light: #f1f4f9;
   --clr-rose: #e11d48;
-  --clr-indigo: #3730a3;
-  --clr-black: #0a0a0a;
+  --clr-indigo: #4137f8;
+  --clr-rose-dark: #710f24;
+  --clr-slate400: #bfbfbf;
+  --clr-slate600: #677384;
+  --clr-dark: #070a13;
+  --clr-shadow: #141b34;
+  --clr-little-dark: #3b0010;
   --default-heading-font: 'General Sans';
   --bold-font-weight: 800;
 }
 
+strong {
+  color: var(--clr-indigo);
+}
+
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: var(--clr-dark);
 }
 
 html {
@@ -20,5 +30,9 @@ a, img {
 }
 
 .message-text {
-  font-size: 0;
+  font-size: 0px;
+}
+
+p, h1, h3 {
+  color: var(--clr-light);
 }

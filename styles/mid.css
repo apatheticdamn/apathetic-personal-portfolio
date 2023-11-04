@@ -3,6 +3,12 @@
   justify-content: center;
   align-items: center;
   width: 100px;
+  transition: transform 0.4s, filter 0.4s;
+}
+
+.link-lang:hover .lang {
+  transform: translateY(-5px);
+  filter: drop-shadow(0px 3px 10px var(--clr-shadow));
 }
 
 .middle-section {
@@ -38,32 +44,46 @@
   text-decoration: none;
   text-align: center;
   width: 100%;
-  height: 230px;
+  height: 250px;
   vertical-align: top;
   padding-top: 20px;
-  padding-bottom: 5px;
   padding-left: 20px;
   padding-right: 20px;
   border-radius: 10px;
-  transition: box-shadow 0.4s, background-color 0.4s, color 0.4s, transform 0.4s;
+  transition: box-shadow 0.4s, transform 0.4s, background-color 0.4s;
+}
+
+.link-lang:hover {
+  z-index: 100;
+  transform: translateY(-15px);
+  box-shadow: 0px 4px 20px var(--clr-shadow);
+
+}
+
+
+.link-lang:active {
+  box-shadow: 0 0 2px 1px #999;
 }
 
 .head-text-skills {
   font-family: Poppins;
   font-weight: bold;
-  padding-top: 10px;
+  padding-top: 5px;
+  transition: color 0.4s;
+  color: rgb(149, 149, 149);
 }
 
-.link-lang:hover {
-  box-shadow: 0px 3px 14px var(--clr-rose);
-  background-color: var(--clr-rose);
-  color: white;
-  z-index: 100;
-  transform: translateY(-15px)
+.link-lang:hover .head-text-skills {
+  color: var(--clr-light);
 }
 
-.link-lang:active {
-  box-shadow: 0 0 2px 1px #999;
+.text-skills {
+  color: var(--clr-slate600);
+  transition: color 0.4s;
+}
+
+.link-lang:hover .text-skills {
+  color: var(--clr-slate400);
 }
 
 .skills-text {
@@ -75,12 +95,11 @@
   margin: 0 0 30px 0;
   font-size: 28px;
   font-weight: bold;
+  color: var(--clr-light)
 }
 
 .skills-paragraph {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: inline;
   text-align: center;
   font-family: Poppins, sans-serif;
   padding-bottom: 100px;
@@ -89,6 +108,7 @@
   font-size: 11px;
   padding-top: 30px;
   margin: 0 auto;
+  color: var(--clr-slate600);
 }
 .skills-full-paragraph-div {
   display: flex;

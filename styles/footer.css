@@ -1,8 +1,14 @@
+.horizontal {
+  border-color: var(--clr-slate600);
+  border-width: 0.01rem;
+}
+
 .footer-instagram-link,
 .footer-discord-link {
   width: 19px;
   cursor: pointer;
   border-radius: 10px;
+  filter: brightness(0) invert(1);
 }
 
 .footer-spotify-link,
@@ -10,6 +16,7 @@
   width: 19px;
   cursor: pointer;
   border-radius: 15px;
+  filter: brightness(0) invert(1);
 }
 
 .footer-links-div {
@@ -22,7 +29,7 @@
 }
 
 .footer-links-div:hover {
-  background-color: rgb(218, 218, 218);
+  background-color: rgb(37, 37, 37);
 }
 
 .lower-section {
@@ -43,6 +50,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: color 0.4s
 }
 
 .logo-section {
@@ -52,19 +60,30 @@
   align-items: center;
 }
 
+.link:hover .link-text {
+  color: var(--clr-rose);
+}
+
+
 .link-text {
   margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: Arial;
-  font-size: 10px;
-  color: black;
+  padding-top: 3px;
+  font-size: 11px;
+  color: var(--clr-slate600);
   margin-top: 2px;
+  transition: color 0.4s;
 }
+
+
 .lower-section-div {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }

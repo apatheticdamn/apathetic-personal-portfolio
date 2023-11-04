@@ -1,8 +1,9 @@
+
+
 p, h3 {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   margin-top: 30px;
- 
 }
 .python-page-heading {
   font-family: 'General Sans', sans-serif;
@@ -17,33 +18,28 @@ p, h3 {
   margin: 20px 0px 20px 0px;
 }
 
-.python2-page-heading-html-text {
-  color: var(--clr-rose);
-  margin: 20px 0px 20px 0px;
-}
-
 a {
   text-decoration: none;
 }
-
-.python-projects-code-1, .python-projects-code-2 {
-  display: block;
+.python-projects-code-1, .python-projects-code-2, .python-projects-code-3 {
+  display: inline-block;
   padding: 10px;
-  background-color: #e0e0e0; 
+  background-color: var(--clr-slate600); 
   border: 1px solid #ccc;
+  border-radius: 5px;
   font-family: 'Consolas', monospace;
-  white-space: pre-wrap; 
-  color: #333; 
+  overflow: auto;
+  color: black; 
   font-weight: bold;
   font-size: 15px;
-  width: auto;
-  margin: 0;
+  width: 600px;
 }
 
 .showcase {
   margin: 0;
   padding: 0;
   max-width: 100%;
+
   
 }
 
@@ -65,4 +61,3 @@ a {
 .python-img:active {
   filter: drop-shadow( 0px 2px 2px var(--clr-rose));
 }
-

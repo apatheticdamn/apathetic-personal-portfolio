@@ -9,27 +9,27 @@
 
 .contact-me-button {
   font-family: 'General sans', sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 14px;
   padding: 10px;
   border-style: solid;
-  border-width: 2px;
+  border-width: 3px;
   border-radius: 8px;
   border-color: var(--clr-rose);
-  background-color: white;
+  background-color: var(--clr-dark);
   color: var(--clr-rose);
   transition: box-shadow 0.4s, transform 0.3s, background-color 0.3s, color 0.3s;
   cursor: pointer;
 }
 
 .contact-me-button:hover {
-  box-shadow: 0px 3px 10px var(--clr-rose);
-  transform: translateY(-3px);
+  box-shadow: 0px 1px 10px var(--clr-rose);
+  transform: translateY(-5px);
   background-color: var(--clr-rose);
   color: white;
   
 }
 
 .contact-me-button:active {
-  box-shadow: 1px 1px 3px var(--clr-rose);
+  box-shadow: 0px 1px 3px var(--clr-rose);
 }

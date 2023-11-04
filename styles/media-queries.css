@@ -74,6 +74,9 @@
   .skills-text {
     font-size: 22px;
   }
+  .contact-me-button {
+    border-width: 0.2rem !important;
+  }
 }
 
 
@@ -263,9 +266,12 @@
   .logo-section {
     column-gap: 30px;
   }
+  .footer-discord-link, .footer-instagram-link,.footer-github-link, .footer-spotify-link {
+    width: 12px;
+  }
 }
 
-@media (max-width: 270px) {
+@media (max-width: 275px) {
   .text-section {
     width: 150px;
   }

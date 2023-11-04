@@ -1,8 +1,9 @@
+
+
 p, h3 {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   margin-top: 30px;
- 
 }
 .css-page-heading {
   font-family: 'General Sans', sans-serif;
@@ -13,7 +14,7 @@ p, h3 {
 }
 
 .css-page-heading-html-text {
-  color: rgb(0, 128, 255);
+  color: rgb(0, 162, 255);
   margin: 20px 0px 20px 0px;
 }
 
@@ -21,18 +22,23 @@ a {
   text-decoration: none;
 }
 
-.css-projects-code-1, .css-projects-code-2 {
-  display: block;
+.html-projects-link-text {
+  color: #ff2a00;
+  font-weight: bold;
+}
+
+.css-projects-code-1, .css-projects-code-2, .html-projects-code-3 {
+  display: inline-block;
   padding: 10px;
-  background-color: #e0e0e0; 
+  background-color: var(--clr-slate600); 
   border: 1px solid #ccc;
+  border-radius: 5px;
   font-family: 'Consolas', monospace;
-  white-space: pre-wrap; 
-  color: #333; 
+  overflow: auto;
+  color: black; 
   font-weight: bold;
   font-size: 15px;
-  width: auto;
-  margin: 0;
+  width: 600px;
 }
 
 .showcase {
@@ -44,13 +50,8 @@ a {
 }
 
 .blue-text {
-  color: rgb(0, 94, 255);
+  color: rgb(0, 89, 255);
 }
-
-.html-projects-link-text {
-  color: rgb(255, 68, 0);
-}
-
 .css-img {
   display: block;
   margin: 0 auto;
@@ -60,9 +61,9 @@ a {
 }
 
 .css-img:hover {
-  filter: drop-shadow( 0px 3px 10px rgb(0, 94, 255));
+  filter: drop-shadow( 0px 3px 10px rgb(0, 174, 255));
 }
 
 .css-img:active {
-  filter: drop-shadow( 0px 2px 2px rgb(0, 94, 255));
+  filter: drop-shadow( 0px 2px 2px rgb(0, 174, 255));
 }
