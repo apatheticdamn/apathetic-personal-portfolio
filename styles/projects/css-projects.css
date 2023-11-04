@@ -1,0 +1,68 @@
+p, h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  margin-top: 30px;
+ 
+}
+.css-page-heading {
+  font-family: 'General Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.css-page-heading-html-text {
+  color: rgb(0, 128, 255);
+  margin: 20px 0px 20px 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.css-projects-code-1, .css-projects-code-2 {
+  display: block;
+  padding: 10px;
+  background-color: #e0e0e0; 
+  border: 1px solid #ccc;
+  font-family: 'Consolas', monospace;
+  white-space: pre-wrap; 
+  color: #333; 
+  font-weight: bold;
+  font-size: 15px;
+  width: auto;
+  margin: 0;
+}
+
+.showcase {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+
+  
+}
+
+.blue-text {
+  color: rgb(0, 94, 255);
+}
+
+.html-projects-link-text {
+  color: rgb(255, 68, 0);
+}
+
+.css-img {
+  display: block;
+  margin: 0 auto;
+  width: 160px;
+  transition: filter  0.4s; 
+  cursor: pointer;
+}
+
+.css-img:hover {
+  filter: drop-shadow( 0px 3px 10px rgb(0, 94, 255));
+}
+
+.css-img:active {
+  filter: drop-shadow( 0px 2px 2px rgb(0, 94, 255));
+}

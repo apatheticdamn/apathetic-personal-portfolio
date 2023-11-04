@@ -1,0 +1,70 @@
+.footer-instagram-link,
+.footer-discord-link {
+  width: 19px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.footer-spotify-link,
+.footer-github-link {
+  width: 19px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.footer-links-div {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}
+
+.footer-links-div:hover {
+  background-color: rgb(218, 218, 218);
+}
+
+.lower-section {
+  margin: 0 auto;
+  height: 100px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
+  margin-top: 60px;
+}
+
+.link {
+  width: 54px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-section {
+  display: flex;
+  justify-content: center;
+  column-gap: 12px;
+  align-items: center;
+}
+
+.link-text {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+  font-size: 10px;
+  color: black;
+  margin-top: 2px;
+}
+.lower-section-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+}
