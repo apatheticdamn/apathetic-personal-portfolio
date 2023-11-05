@@ -43,6 +43,8 @@
   color: var(--clr-rose);
   width: 100%;
   cursor: text;
+  animation: glow 2s ease 1;
+  text-shadow: 0 0 12px var(--clr-rose), 0 0 50px var(--clr-rose), 0 0 100px var(--clr-rose);
 }
 
 .intro-text {

@@ -53,3 +53,14 @@
         opacity: 1;
     }
 }
+
+@keyframes glow {
+    
+    from {
+        color: var(--clr-dark);
+        text-shadow: none;
+    }
+    to {
+        text-shadow: 0 0 12px var(--clr-rose), 0 0 50px var(--clr-rose), 0 0 100px var(--clr-rose);
+    }
+}
