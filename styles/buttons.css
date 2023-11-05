@@ -18,7 +18,7 @@
   border-color: var(--clr-rose);
   background-color: var(--clr-dark);
   color: var(--clr-rose);
-  transition: box-shadow 0.4s, transform 0.3s, background-color 0.3s, color 0.3s;
+  transition: all 0.4s ease 0s;
   cursor: pointer;
 }
 

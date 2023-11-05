@@ -1,5 +1,5 @@
 .horizontal {
-  border-color: var(--clr-slate600);
+  border-color: var(--border-clr-horizontal);
   border-width: 0.01rem;
 }
 
@@ -26,6 +26,7 @@
   align-items: center;
   border-radius: 6px;
   transition: background-color 0.3s;
+  cursor: pointer;
 }
 
 .footer-links-div:hover {
@@ -50,7 +51,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  transition: color 0.4s
+  transition: color 0.4s;
+  cursor: default;
 }
 
 .logo-section {

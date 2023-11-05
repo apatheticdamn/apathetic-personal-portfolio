@@ -72,20 +72,30 @@
 
 .text-section {
   text-align: center;
-  width: 620px;
+  max-width: 600px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
   padding-right: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  box-shadow: 0px 2px 10px var(--clr-shadow);
+  display: inline-block;
+  margin: auto;
+  background-color: var(--clr-canvas-default);
+  box-shadow: 10px 10px 30px var(--clr-shadow);
   border-radius: 14px; 
+
+  animation: opacityFrom0To1 1.2s ease, slideInRight 1.2s ease;
 }
 
 .about-me-text {
+  /* animation-name: slideInLeft;
+  animation-duration: 1.2s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: both; */
+  animation: slideInLeft 1.2s ease, opacityFrom0To1 1.2s ease;
+
   display: block;
   font-family: Poppins;
   font-size: 20px;
@@ -93,9 +103,8 @@
   margin-top: 17px;
   margin-bottom: 20px;
   text-align: center;
-  color: var(--clr-light)
+  color: var(--clr-light);
 }
-
 
 .apathetic-text {
   font-family: Roboto, sans-serif;

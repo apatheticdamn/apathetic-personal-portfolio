@@ -7,8 +7,10 @@
   --clr-slate400: #bfbfbf;
   --clr-slate600: #677384;
   --clr-dark: #070a13;
-  --clr-shadow: #141b34;
+  --clr-shadow: #04060e;
   --clr-little-dark: #3b0010;
+  --clr-canvas-default: #0a0e1a;
+  --border-clr-horizontal: #1a233d;
   --default-heading-font: 'General Sans';
   --bold-font-weight: 800;
 }
