@@ -12,6 +12,8 @@
     <link href="styles/media-queries.css" rel="stylesheet">
     <link rel="icon" href="images/mai-san-round.png">
     <link href="styles/buttons.css" rel="stylesheet">
+    <link href="styles/hamburgur-menu.css" rel="stylesheet">
+    <script src="./script/script.js"></script>
 </head>
 <body>
     <center>
@@ -21,20 +23,25 @@
         <img src="images/mai-san-pfp.jpg" class="mai-san-logo">
         <span class="header-website-name">Apathetic</span>
         <nav class="nav-header">
+           
+            <div class="hamburgur-menu">
+                <div class="ham-bar bar-top"></div>
+                <div class="ham-bar bar-mid"></div>
+                <div class="ham-bar bar-bottom"></div>
+              </div>
+            <div class="offscreen-menu"></div>
+              
+                       
             <div class="nav-item-group">
                 <a href="#home" class="nav-header-buttons">Home
-                    <img src="/icons/interactive-icons/icons8-home-384.png" alt="" class="home">
                 </a>
                 <a href="#about" class="nav-header-buttons">About me
-                    <img src="/icons/interactive-icons/icons8-about-me-100.png" alt="" class="home">
                 </a>
             </div>
             <div class="nav-item-group">
                 <a href="#projects" class="nav-header-buttons">Projects
-                    <img src="/icons/interactive-icons/icons8-projects-58.png" alt="" class="home">
                 </a>
                 <a href="#home" class="nav-header-buttons">Contact me
-                    <img src="/icons/interactive-icons/icons8-email-100.png" alt="" class="home">
                 </a>
             </div>
         </nav>
@@ -50,7 +57,7 @@
                 </section>
                 <section class="contact-section" id="contact">
                     <a href="mailto: apathetic.damn@gmail.com">
-                        <button class="contact-me-button">Contact Me</button>
+                        <button id="contact-me" class="contact-me-button">Contact Me</button>
                     </a>
                 </section>
             </intro>
@@ -134,8 +141,9 @@
                 </div>
                 <p class="link-text">Spotify</p>
             </a>
-        </footer>
+         </footer>
         </section>
-        </div>
-        </html>
+    </div>
+ </body>
+</html>
         

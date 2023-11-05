@@ -125,6 +125,15 @@
   }
 }
 
+
+
+
+@media (max-width: 430px) {
+  .hamburger-menu {
+    display: none;
+  }
+}
+
 @media (max-width: 420px) {
   .middle-section {
     display: flex;
