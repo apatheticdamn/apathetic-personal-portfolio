@@ -75,15 +75,12 @@
 .about-section {
   text-align: center;
   max-width: 600px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
   display: inline-block;
   margin: auto;
   background-color: var(--clr-canvas-default);
   box-shadow: 10px 10px 30px var(--clr-shadow);
   border-radius: 14px; 
+  padding: 20px;
 
   animation: opacityFrom0To1 1.2s ease, slideInRight 1.2s ease;
 }
