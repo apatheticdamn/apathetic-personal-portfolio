@@ -12,7 +12,7 @@
   font-family: Poppins;
   font-weight: bold;
   background-color: var(--clr-dark);
-  box-shadow: 0px 0.2px 10px var(--clr-shadow);
+  box-shadow: 0px 10px 20px var(--clr-shadow);
   z-index: 200;
 }
 

@@ -57,7 +57,7 @@
 @keyframes glow {
     
     from {
-        color: var(--clr-dark);
+        color: var(--clr-rose);
         text-shadow: none;
     }
     to {

@@ -42,16 +42,18 @@
 .main-text {
   color: var(--clr-rose);
   width: 100%;
-  cursor: text;
+  cursor: pointer;
   animation: glow 2s ease 1;
-  text-shadow: 0 0 12px var(--clr-rose), 0 0 50px var(--clr-rose), 0 0 100px var(--clr-rose);
+  text-shadow: 0 0 12px var(--clr-rose), 0 0 50px var(--clr-rose),
+    0 0 100px var(--clr-rose);
 }
+
 
 .about-text {
   display: inline;
   width: 100%;
   font-family: Poppins, sans-serif;
-  font-size: 13px;
+  font-size: 16px;
   color: var(--clr-slate600);
   font-weight: 500;
   line-height: 1.5;
@@ -63,6 +65,11 @@
   display: inline;
   color: var(--clr-indigo);
   font-weight: bold;
+  transition: all 0.4s ease;
+}
+
+.indigo-text:hover {
+  text-shadow: 0 0 10px var(--clr-indigo); 
 }
 
 
@@ -70,7 +77,13 @@
   color: var(--clr-rose);
   font-weight: bold;
   cursor: pointer;
+  transition: all 0.4s ease;
 }
+
+.red-text:hover {
+  text-shadow: 0 0 10px var(--clr-rose); 
+}
+
 
 .about-section {
   text-align: center;
@@ -79,7 +92,7 @@
   margin: auto;
   background-color: var(--clr-canvas-default);
   box-shadow: 10px 10px 30px var(--clr-shadow);
-  border-radius: 14px; 
+  border-radius: 14px;
   padding: 20px;
 
   animation: opacityFrom0To1 1.2s ease, slideInRight 1.2s ease;
@@ -113,12 +126,16 @@
   transition: color 0.5s;
   color: var(--clr-rose);
   font-weight: bold;
+  transition: all 0.4s ease;
 }
+
+.apathetic-text:hover {
+  text-shadow: 0 0 10px var(--clr-rose); 
+}
+
 
 .mai-san {
   width: 130px;
   filter: drop-shadow(2px 2px 20px rgb(19, 25, 46));
   cursor: pointer;
 }
-
-
