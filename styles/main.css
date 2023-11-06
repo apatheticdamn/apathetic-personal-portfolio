@@ -39,7 +39,7 @@
   cursor: text;
 }
 
-.name-text {
+.main-text {
   color: var(--clr-rose);
   width: 100%;
   cursor: text;
@@ -47,7 +47,7 @@
   text-shadow: 0 0 12px var(--clr-rose), 0 0 50px var(--clr-rose), 0 0 100px var(--clr-rose);
 }
 
-.intro-text {
+.about-text {
   display: inline;
   width: 100%;
   font-family: Poppins, sans-serif;
@@ -72,7 +72,7 @@
   cursor: pointer;
 }
 
-.text-section {
+.about-section {
   text-align: center;
   max-width: 600px;
   padding-top: 10px;
@@ -88,7 +88,7 @@
   animation: opacityFrom0To1 1.2s ease, slideInRight 1.2s ease;
 }
 
-.about-me-text {
+.about-heading {
   /* animation-name: slideInLeft;
   animation-duration: 1.2s;
   animation-timing-function: ease;
@@ -120,7 +120,7 @@
 
 .mai-san {
   width: 130px;
-  filter: drop-shadow(2px 2px 20px var(--clr-shadow));
+  filter: drop-shadow(2px 2px 20px rgb(19, 25, 46));
   cursor: pointer;
 }
 

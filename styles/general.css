@@ -33,6 +33,7 @@ a, img {
 
 .message-text {
   font-size: 0px;
+  color: var(--clr-light);
 }
 
 p, h1, h3 {

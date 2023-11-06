@@ -148,6 +148,10 @@
     flex: 1;
     margin: 10px;
     width: 70px;
+  
+  }
+  .link-lang {
+    height: 220px;
   }
   
   .middle-section {
@@ -204,7 +208,7 @@
   .intro-heading {
     font-size: 15px;
   }
-  .intro-text {
+  .about-text {
     font-size: 9px;
   }
   .apathetic-text {
@@ -278,7 +282,7 @@
 }
 
 @media (max-width: 275px) {
-  .intro-text {
+  .about-text {
     width: 150px;
   }
   .logo-section {

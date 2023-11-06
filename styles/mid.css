@@ -72,7 +72,7 @@
 
 
 .link-lang:active {
-  box-shadow: 0 0 2px 1px #999;
+  box-shadow: 0px 2px 10px var(--clr-shadow);
 }
 
 .head-text-skills {
@@ -107,7 +107,7 @@
   color: var(--clr-slate400);
 }
 
-.skills-text {
+.skills-heading {
   padding-top: 60px;
   display: flex;
   justify-content: center;
