@@ -18,18 +18,22 @@
   border-color: var(--clr-rose);
   background-color: var(--clr-dark);
   color: var(--clr-rose);
-  transition: all 0.4s ease 0s;
+  transition: all 0.4s;
   cursor: pointer;
+
+  animation: popIn 1s ease;
 }
 
 .contact-me-button:hover {
-  box-shadow: 0px 1px 10px var(--clr-rose);
-  transform: translateY(-5px);
   background-color: var(--clr-rose);
-  color: white;
+  color: var(--clr-light);
+  transform: translateY(-5px);
+  
+  
+  box-shadow: 0 0 12px var(--clr-rose), 0 0 30px var(--clr-rose), 0 0 80px var(--clr-rose);
   
 }
 
 .contact-me-button:active {
-  box-shadow: 0px 1px 3px var(--clr-rose);
+  box-shadow: 0 0 6px var(--clr-rose), 0 0 20px var(--clr-rose), 0 0 60px var(--clr-rose);
 }
