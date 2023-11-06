@@ -1,4 +1,5 @@
 @media (max-width: 640px) {
+
   .nav-header {
     margin-right: 6px;
   }
@@ -21,6 +22,19 @@
     align-items: center;
     column-gap: 40px;
   }
+
+  .about-heading {
+    font-size: 13px;
+  }
+  .about-text, .apathetic-text {
+    font-size: 11px;
+  }
+  
+  .skills-heading {
+    font-size: 15px;
+  }
+
+
   .link-lang,
   .lang {
     display: flex;
@@ -28,6 +42,11 @@
     align-items: center;
     flex: 1;
     margin: 10px;
+  }
+  .link-lang {
+    width: 47px;
+    height: 250px;
+
   }
 
   .mai-san {
@@ -63,14 +82,18 @@
   }
   
   .head-text-skills {
-    font-size: 18px;
+    font-size: 15px;
   }
   .text-skills {
-    font-size: 14px;
+    font-size: 12px;
     width: 90px;
+    padding-bottom: 30px;
   }
   .skills-text {
     font-size: 22px;
+  }
+  .skills-paragraph {
+    font-size: 10px;
   }
   .contact-me-button {
     border-width: 0.2rem !important;
