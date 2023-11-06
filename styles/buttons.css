@@ -20,8 +20,6 @@
   color: var(--clr-rose);
   transition: all 0.4s;
   cursor: pointer;
-
-  animation: popIn 1s ease;
 }
 
 .contact-me-button:hover {
