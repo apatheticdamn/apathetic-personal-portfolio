@@ -10,7 +10,7 @@
   align-items: center;
   text-align: center;
   margin-bottom: 30px;
-  width: 300px;
+  width: 400px;
   height: 300px;
   transform: translateY(-50px);
 }
@@ -19,24 +19,36 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 598px;
+  height: 500px;
+  margin: 0 auto;
 }
+
 
 .intro-div {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   line-height: 1px;
-  font-size: 26px;
+  font-size: 35px;
   cursor: default;
-  width: 260px;
+  width: 340px;
+  margin-top: 100px;
+  padding-top: 40px;
   color: var(--clr-light);
 }
 
 .intro-heading,
 .intro {
   font-family: var(--default-heading-font);
-  display: inline-block;
   width: 100%;
   cursor: text;
+  margin: 20px;
+}
+
+.intro-heading {
+  margin-bottom: 35px;
 }
 
 .main-text {
@@ -48,16 +60,29 @@
     0 0 100px var(--clr-rose);
 }
 
+.developer-heading {
+  color: var(--clr-light);
+  font-size: 32px;
+  font-family: 'General Sans', sans-serif;
+  display: block;
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
 
-.about-text {
-  display: inline;
-  width: 100%;
+.rose-text {
+  color: var(--clr-rose);
+}
+
+.developer-description {
   font-family: Poppins, sans-serif;
-  font-size: 16px;
   color: var(--clr-slate600);
-  font-weight: 500;
-  line-height: 1.5;
-  text-align: center;
+}
+
+
+.mai-san {
+  width: 130px;
+  filter: drop-shadow(2px 2px 20px rgb(19, 25, 46));
+  cursor: pointer;
 }
 
 .indigo-text {
@@ -86,15 +111,20 @@
 
 
 .about-section {
-  text-align: center;
-  max-width: 600px;
-  display: inline-block;
-  margin: auto;
+  max-width: 694px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 20px;
   background-color: var(--clr-canvas-default);
   box-shadow: 10px 10px 30px var(--clr-shadow);
   border-radius: 14px;
-  padding: 20px;
-
+  padding: 15px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  width: 100%;
+  word-wrap: break-word;
+  margin: 0 auto;
   animation: opacityFrom0To1 1.2s ease;
 }
 
@@ -107,16 +137,27 @@
   animation-direction: normal;
   animation-fill-mode: both; */
   animation: opacityFrom0To1 1.2s ease;
-
-  display: block;
   font-family: Poppins;
   font-size: 20px;
   margin: 0;
   margin-top: 17px;
-  margin-bottom: 20px;
+  margin-bottom: 9px;
   text-align: center;
   color: var(--clr-light);
 }
+
+
+.about-text {
+  width: 100%;
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  color: var(--clr-slate600);
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+  white-space: normal;
+}
+
 
 .apathetic-text {
   font-family: Roboto, sans-serif;
@@ -134,8 +175,3 @@
 }
 
 
-.mai-san {
-  width: 130px;
-  filter: drop-shadow(2px 2px 20px rgb(19, 25, 46));
-  cursor: pointer;
-}

@@ -4,7 +4,6 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 20px;
 }
 
 .contact-me-button {
@@ -20,6 +19,7 @@
   color: var(--clr-rose);
   transition: all 0.4s;
   cursor: pointer;
+  margin-top: 10px;
 }
 
 .contact-me-button:hover {

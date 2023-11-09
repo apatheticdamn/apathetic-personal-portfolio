@@ -1,331 +1,239 @@
-@media (max-width: 640px) {
-
-  .nav-header {
-    margin-right: 6px;
-  }
-  .home {
-    margin-right: 10px;
-  }
-  .intro-section {
-    width: 200px;
-  }
-  .intro-div {
-    width: 170px;
-  }
-  .contact-section {
-    margin: 0 !important;
-  }
-  .middle-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    column-gap: 40px;
-  }
-
-  .about-heading {
+@media (max-width: 768px) {
+  /*main section*/
+  .header {
     font-size: 13px;
   }
-  .about-text, .apathetic-text {
-    font-size: 11px;
+
+  .full-header-intro-div {
+    height: 200px;
+    margin-top: 130px;
   }
   
-  .skills-heading {
-    font-size: 15px;
+  .intro-div {
+    margin-top: 0;
+    padding-top: 0;
   }
 
-
-  .link-lang,
-  .lang {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-    margin: 10px;
+  .intro-section {
+    width: 288px;
   }
-  .link-lang {
-    width: 47px;
-    height: 250px;
 
+  .intro, .intro-heading {
+    font-size: 32px;
+  }
+
+  .developer-heading {
+    font-size: 21px;
+    margin-top: 29px;
+  }
+
+  .developer-description {
+    font-size: 12px;
+    width: 300px;
   }
 
   .mai-san {
-    width: 100px;
-    object-fit: cover;
-  }
-  .main-section {
-    margin-bottom: 30px;
-  }
-  .intro-heading {
-    font-size: 17px;
-  }
-  .intro {
-    font-size: 23px;
-  }
-  .main-section {
-    column-gap: 3px;
-  }
-  .contact-me-button {
-    font-size: 9px !important;
-    padding: 7px !important;
-  }
-  .about-me-text {
-    font-size: 17px;
-  }
-  
-  .middle-section {
-    width: 400px;
-    row-gap: 30px;
-  }
-  .lang {
-    width: 80px;
-  }
-  
-  .head-text-skills {
-    font-size: 15px;
-  }
-  .text-skills {
-    font-size: 12px;
     width: 90px;
-    padding-bottom: 30px;
+    transform: translateY(-60px)
   }
-  .skills-text {
-    font-size: 22px;
-  }
-  .skills-paragraph {
-    font-size: 10px;
-  }
+
   .contact-me-button {
-    border-width: 0.2rem !important;
-  }
-}
-
-
-@media (max-width: 515px) {
-
-  .link-lang {
-    font-size: 13px;
-  }
-  .nav-header {
-    font-size: 11px;
-  }
-  .header-website-name {
-    font-size: 0px;
-  }
-  .mai-san-logo {
-    margin-right: 30px;
-  }
-}
-
-@media (max-width: 500px) {
-  .nav-header {
-    font-size: 10px;
-  }
-}
-
-@media (min-width: 430px) {
-
-  .home {
-    width: 0px;
-  }
-}
-
-@media (max-width: 430px) {
-  .nav-header {
-    font-size: 0px;
-    column-gap: 0;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-
-  }
-  .home {
-    width: 19px;
-    margin-right: 22px;
-
-  }
-}
-
-
-
-
-@media (max-width: 430px) {
-  .hamburger-menu {
-    display: none;
-  }
-}
-
-@media (max-width: 420px) {
-  .middle-section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    column-gap: 40px;
-  }
-  .link-lang,
-  .lang {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-    margin: 10px;
-    width: 70px;
-  
-  }
-  .link-lang {
-    height: 220px;
-  }
-  
-  .middle-section {
-    width: 300px;
-    row-gap: 30px;
-    column-gap: 10px;
-  }
-  .lang {
-    width: 60px;
-  }
-  
-  .head-text-skills {
-    font-size: 15px;
-  }
-  .text-skills {
-    font-size: 14px;
-    width: 90px;
-  }
-  .skills-text {
-    font-size: 14px;
-  }
-}
-
-@media (max-width: 345px) {
-  .middle-section {
-    width: 30px;
-  }
-}
-
-@media (max-width: 330px) {
-  .hamburger-menu {
-    width: 16px;
-    margin-right: 6px;
-  }
-  .mai-san-logo {
-    width: 19px;
-  }
-  .home {
-    width: 13px;
-  }
-  .intro-section {
-    width: 170px;
-    margin: 0;
-  }
-  .main-section {
-    width: 180px;
-    column-gap: 3px;
-
-  }
-  .intro-div {
-    width: 170px;
-    padding-top: 3px;
-  }
-  .intro-heading {
-    font-size: 15px;
-  }
-  .about-text {
+    scale: 60%;
     font-size: 9px;
   }
-  .apathetic-text {
+  
+  .contact-section {
+    margin: 3px !important;
+  }
+  
+  .about-section {
+    width: 69%;
+   
+  }
+  .about-heading {
+    font-size: 16px;
+  }
+  
+  .about-text {
     font-size: 11px;
   }
-  .intro {
-    font-size: 17px;
-  }
-  .mai-san {
-    width: 72px;
-    transform: translateY(-20px)
-  }
-  .contact-section {
-    margin: 0px 0px 0px 0px !important;
-  }
-  .contact-me-button {
-    font-size: 7px !important;
-    padding: 5px !important;
-    margin: 0px 0px 0px 0px !important;
+  
+  .apathetic-text {
+    font-size: 13px;
   }
 
-  .about-me-text {
-    font-size: 14px;
+  /* Mid Section */
+  .skills-heading {
+    font-size: 16px;
+    padding-top: 39px;
+    margin-bottom: 5px;
   }
-  .lower-section {
+
+  .link-lang {
     width: 100px;
   }
+  
+  .lang {
+    width: 54px;
+  }
+  
+  .head-text-skills {
+    font-size: 13px;
+    margin-bottom: 6px;
+  }
+  
+  .text-skills {
+    font-size: 10px;
+    line-height: .9rem;
+  }
+
+  .skills-paragraph {
+    font-size: 9px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 60px;
+  }
+
+  /*Footer section*/
   .footer-discord-link,
   .footer-github-link,
   .footer-instagram-link,
   .footer-spotify-link {
-    width: 20px;
+    width: 15px;
   }
+  
   .link-text {
-    font-size: 0px;
-    width: 0px;
-  }
-  .link {
-    width: 17px;
-    font-size: 11px;
-  }
-  .middle-section {
-    width: 240px;
-  }
-  .link-lang, .lang {
-    width: 40px;
-  }
-  .link-lang {
-    height: 140px;
-  }
-  .head-text-skills {
-    font-size: 11px;
-  }
-  .text-skills {
-    font-size: 9px;
-    line-height: 0.9rem;
-  }
-  .skills-text {
-    font-size: 19px;
-  }
-  .skills-paragraph {
     font-size: 8px;
-    line-height: 15px;
+    margin-top: 0px;
   }
-  .logo-section {
-    column-gap: 30px;
+
+  .footer-links-div {
+    width: 22px;
   }
-  .footer-discord-link, .footer-instagram-link,.footer-github-link, .footer-spotify-link {
-    width: 12px;
+  .lower-section-div {
+    height: 70px;
   }
 }
 
-@media (max-width: 275px) {
-  .about-text {
-    width: 150px;
+@media (max-width: 480px) {
+  /*main section*/
+  .mai-san-logo {
+    width: 22px;
   }
-  .logo-section {
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 60px;
+  .header {
+    font-size: 10px;
   }
-  .nav-header {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    row-gap: 15px;
-    column-gap: 14px;
 
+  .full-header-intro-div {
+    height: 200px;
+    margin-top: 130px;
   }
-  .link {
-    height: 60px;
+  
+  .intro-div {
+    width: 161px;
+    margin-top: 0;
+    padding-top: 0;
   }
-  .logo-section {
-    height: 30px;
+
+  .intro-section {
+    width: 256px;
+  }
+
+  .intro, .intro-heading {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+
+  .developer-heading {
+    font-size: 15px;
+    margin-top: 19px;
+  }
+
+  .developer-description {
+    font-size: 9px;
+    width: 204px;
+  }
+
+  .mai-san {
+    width: 70px;
+    transform: translateY(-83px)
+  }
+
+  .contact-me-button {
+    scale: 38%;
+    font-size: 9px;
+  }
+  
+  .contact-section {
+    margin: -10px !important;
+  }
+  
+  .about-section {
+    width: 69%;
+   
+  }
+  .about-heading {
+    font-size: 16px;
+  }
+  
+  .about-text {
+    font-size: 11px;
+  }
+  
+  .apathetic-text {
+    font-size: 13px;
+  }
+
+  /* Mid Section */
+  .skills-heading {
+    font-size: 16px;
+    padding-top: 39px;
+    margin-bottom: 5px;
+  }
+
+  .link-lang {
+    width: 100px;
+  }
+  
+  .lang {
+    width: 54px;
+  }
+  
+  .head-text-skills {
+    font-size: 13px;
+    margin-bottom: 6px;
+  }
+  
+  .text-skills {
+    font-size: 10px;
+    line-height: .9rem;
+  }
+
+  .skills-paragraph {
+    font-size: 9px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 60px;
+  }
+
+  /*Footer section*/
+  .footer-discord-link,
+  .footer-github-link,
+  .footer-instagram-link,
+  .footer-spotify-link {
+    width: 15px;
+  }
+  
+  .link-text {
+    font-size: 8px;
+    margin-top: 0px;
+  }
+
+  .footer-links-div {
+    width: 22px;
+  }
+  .lower-section-div {
+    height: 70px;
   }
 }
 
@@ -336,7 +244,7 @@
     font-family: Consolas, sans-serif;
     font-weight: bold;
   }
- .mai-san, .nav-header, .link-lang, .logo-section,.intro-heading, .intro, .contact-me-button, .mai-san-logo, .hamburger-menu, .about-me-text, .intro-text, .skills-paragraph, .skills-text, .head-text-skills, .header, .lower-section-div, .middle-section, .main-div {
+ .mai-san, .nav-header, .link-lang, .logo-section,.intro-heading, .intro, .contact-me-button, .mai-san-logo, .hamburger-menu, .about-me-text, .intro-text, .skills-paragraph, .skills-text, .head-text-skills, .header, .lower-section-div, .middle-section, .main-div, .skills-heading  {
     display: none;
   }
 }

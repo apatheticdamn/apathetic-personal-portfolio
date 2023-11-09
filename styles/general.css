@@ -15,6 +15,12 @@
   --bold-font-weight: 800;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 strong {
   color: var(--clr-indigo);
 }
@@ -32,6 +38,7 @@ a, img {
 }
 
 .message-text {
+  text-align: center;
   font-size: 0px;
   color: var(--clr-light);
 }

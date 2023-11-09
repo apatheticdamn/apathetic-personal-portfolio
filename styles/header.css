@@ -4,11 +4,10 @@
   left: 0px;
   right: 0px;
   display: flex;
-  height: 30px;
+  height: 55px;
   align-items: center;
   column-gap: 13px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding: 10px;
   font-family: Poppins;
   font-weight: bold;
   background-color: var(--clr-dark);
