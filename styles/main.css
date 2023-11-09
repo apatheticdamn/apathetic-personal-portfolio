@@ -95,7 +95,7 @@
   border-radius: 14px;
   padding: 20px;
 
-  animation: opacityFrom0To1 1.2s ease, slideInRight 1.2s ease;
+  animation: opacityFrom0To1 1.2s ease;
 }
 
 .about-heading {
@@ -106,7 +106,7 @@
   animation-iteration-count: infinite;
   animation-direction: normal;
   animation-fill-mode: both; */
-  animation: slideInLeft 1.2s ease, opacityFrom0To1 1.2s ease;
+  animation: opacityFrom0To1 1.2s ease;
 
   display: block;
   font-family: Poppins;
