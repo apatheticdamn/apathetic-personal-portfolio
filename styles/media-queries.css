@@ -198,7 +198,7 @@
   }
 }
 
-@media (max-width: 345) {
+@media (max-width: 345px) {
   .middle-section {
     width: 30px;
   }
