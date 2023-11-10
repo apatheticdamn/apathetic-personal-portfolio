@@ -7,7 +7,8 @@
   .full-header-intro-div {
     margin-top: 100px !important;
     width: 434px;
-    margin-bottom: 50px;
+    margin-bottom: 120px;
+    scale: 100% !important;
   }
   
   .intro-div {
