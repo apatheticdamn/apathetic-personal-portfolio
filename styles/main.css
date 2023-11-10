@@ -1,28 +1,31 @@
 .main-div {
-  padding-top: 90px;
   display: grid;
   justify-content: center;
 }
-.intro-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin-bottom: 30px;
-  width: 400px;
-  height: 300px;
-  transform: translateY(-50px);
-}
+
 
 .full-header-intro-div {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 598px;
-  height: 500px;
+  max-width: 600px;
+  width: 100%;
   margin: 0 auto;
+  margin-top: 100px;
 }
+
+.intro-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+  width: 400px;
+  height: 300px;
+  vertical-align: top;
+  
+}
+
 
 
 .intro-div {
@@ -34,8 +37,6 @@
   font-size: 35px;
   cursor: default;
   width: 340px;
-  margin-top: 100px;
-  padding-top: 40px;
   color: var(--clr-light);
 }
 
@@ -81,8 +82,10 @@
 
 .mai-san {
   width: 130px;
-  filter: drop-shadow(2px 2px 20px rgb(19, 25, 46));
+  filter: drop-shadow(7px 7px 20px var(--clr-canvas-default));
   cursor: pointer;
+  transform: translateY(40px);
+
 }
 
 .indigo-text {
@@ -122,6 +125,7 @@
   padding: 15px;
   padding-top: 5px;
   padding-bottom: 20px;
+  margin-top: 140px !important;
   width: 100%;
   word-wrap: break-word;
   margin: 0 auto;

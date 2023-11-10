@@ -1,21 +1,24 @@
 @media (max-width: 768px) {
   /*main section*/
   .header {
-    font-size: 13px;
+    font-size: 11px;
   }
 
   .full-header-intro-div {
-    height: 200px;
-    margin-top: 130px;
+    margin-top: 100px !important;
+    width: 434px;
+    margin-bottom: 50px;
   }
   
   .intro-div {
     margin-top: 0;
     padding-top: 0;
+    width: 210px;
   }
 
   .intro-section {
     width: 288px;
+    margin-bottom: 0;
   }
 
   .intro, .intro-heading {
@@ -29,12 +32,12 @@
 
   .developer-description {
     font-size: 12px;
-    width: 300px;
+    width: 288px;
   }
 
   .mai-san {
     width: 90px;
-    transform: translateY(-60px)
+    transform: translateY(-10px)
   }
 
   .contact-me-button {
@@ -48,6 +51,7 @@
   
   .about-section {
     width: 69%;
+    margin-top: 30px !important;
    
   }
   .about-heading {
@@ -125,18 +129,27 @@
   }
 
   .full-header-intro-div {
-    height: 200px;
-    margin-top: 130px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    
   }
   
   .intro-div {
     width: 161px;
     margin-top: 0;
     padding-top: 0;
+    padding: 0;
+    
   }
 
   .intro-section {
-    width: 256px;
+    margin-bottom: 0px;
+    width: 200px;
+    height: 229px;
+    
   }
 
   .intro, .intro-heading {
@@ -156,7 +169,7 @@
 
   .mai-san {
     width: 70px;
-    transform: translateY(-83px)
+    transform: translateY(7px);
   }
 
   .contact-me-button {
@@ -169,26 +182,33 @@
   }
   
   .about-section {
-    width: 69%;
+    width: 70%;
    
   }
   .about-heading {
-    font-size: 16px;
+    font-size: 12px;
   }
   
   .about-text {
-    font-size: 11px;
+    font-size: 9px;
   }
   
   .apathetic-text {
-    font-size: 13px;
+    font-size: 10px;
   }
 
   /* Mid Section */
   .skills-heading {
-    font-size: 16px;
+    font-size: 13px;
     padding-top: 39px;
     margin-bottom: 5px;
+  }
+
+  .middle-section {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 120px 120px;
+    row-gap: 30px;
   }
 
   .link-lang {
@@ -196,16 +216,16 @@
   }
   
   .lang {
-    width: 54px;
+    width: 48px;
   }
   
   .head-text-skills {
-    font-size: 13px;
+    font-size: 11px;
     margin-bottom: 6px;
   }
   
   .text-skills {
-    font-size: 10px;
+    font-size: 9px;
     line-height: .9rem;
   }
 
@@ -237,14 +257,100 @@
   }
 }
 
-@media (max-width: 245px) {
-  .message-text  {
-    display: block;
-    font-size: 15px;
-    font-family: Consolas, sans-serif;
-    font-weight: bold;
-  }
- .mai-san, .nav-header, .link-lang, .logo-section,.intro-heading, .intro, .contact-me-button, .mai-san-logo, .hamburger-menu, .about-me-text, .intro-text, .skills-paragraph, .skills-text, .head-text-skills, .header, .lower-section-div, .middle-section, .main-div, .skills-heading  {
+@media (max-width: 394px) {
+  .nav-header {
     display: none;
   }
+
+  .link {
+    width: 30px;
+  }
+
+  .link-text {
+    display: none;
+  }
+
+}
+
+
+@media (max-width: 324px) {
+  .header-website-name {
+    font-size: 8px;
+    transform: translateX(-5px)
+  }
+
+  .mai-san-logo {
+    width: 15px;
+  }
+
+  .full-header-intro-div {
+    scale: 69% !important;
+    margin-top: 40px !important;
+  }
+
+  .about-section {
+    width: 40% !important;
+    padding: 10px;
+    margin-top: 0px !important;
+    transform: translateY(-30px)
+
+  }
+
+  .about-heading {
+    font-size: 8px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  .apathetic-text {
+    font-size: 7px;
+  }
+
+  .about-text {
+    font-size: 6px;
+  }
+
+  .skills-heading {
+    padding-top: 0px;
+    font-size: 9px;
+  }
+
+  .middle-section {
+    scale: 65% !important;
+    transform: translateY(-70px);
+    margin: 0 auto;
+    column-gap: 3px;
+    row-gap: 21px;
+  }
+
+  .skills-paragraph {
+    font-size: 6px;
+    line-height: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+    transform: translateY(-80px);
+  }
+
+  .footer-discord-link,
+  .footer-github-link,
+  .footer-instagram-link,
+  .footer-spotify-link {
+    width: 8px;
+  }
+  
+  .link-text {
+    font-size: 6px;
+    margin-top: 0px;
+  }
+
+  .footer-links-div {
+    width: 17px;
+  }
+  .lower-section-div {
+    height: 70px;
+  }
+  .link {
+    width: 13px;
+  }
+
 }
