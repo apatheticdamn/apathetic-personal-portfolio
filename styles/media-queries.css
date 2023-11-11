@@ -125,8 +125,8 @@
   .mai-san-logo {
     width: 22px;
   }
-  .header {
-    font-size: 10px;
+  .header .nav-header{
+    display: none;
   }
 
   .full-header-intro-div {
