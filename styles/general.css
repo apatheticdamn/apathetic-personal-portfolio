@@ -15,6 +15,12 @@
   --bold-font-weight: 800;
 }
 
+::selection {
+  background-color: var(--clr-rose);
+  color: var(--clr-light);
+}
+
+
 * {
   margin: 0;
   padding: 0;
