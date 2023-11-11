@@ -46,3 +46,7 @@ a, img {
 p, h1, h3 {
   color: var(--clr-light);
 }
+
+body {
+  overflow-x: hidden;
+}
