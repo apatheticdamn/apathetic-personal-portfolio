@@ -2,13 +2,14 @@
   /*main section*/
   .header {
     font-size: 11px;
+    height: 40px;
   }
 
   .full-header-intro-div {
-    margin-top: 100px !important;
+    margin-top: 140px !important;
     width: 434px;
-    margin-bottom: 120px;
-    scale: 100% !important;
+    margin-bottom: 50px;
+    scale: 120% !important;
   }
   
   .intro-div {
