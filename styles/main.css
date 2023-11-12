@@ -83,7 +83,7 @@
 
 .mai-san {
   width: 130px;
-  filter: drop-shadow(7px 7px 20px var(--clr-canvas-default));
+  filter: drop-shadow(7px 7px 30px var(--clr-shadow));
   cursor: pointer;
   transform: translateY(40px);
 
