@@ -64,3 +64,19 @@
         text-shadow: 0 0 12px var(--clr-rose), 0 0 50px var(--clr-rose), 0 0 100px var(--clr-rose);
     }
 }
+
+
+@keyframes waveEmoji {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-20deg);
+  }
+  50% {
+    transform: rotate(20deg);
+  }
+  75% {
+    transform: rotate(-20deg);
+  }
+}

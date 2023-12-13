@@ -50,6 +50,11 @@
   margin-bottom: 35px;
 }
 
+.wave-emoji {
+  display: inline-block;
+  transform-origin: 75% 1020%;
+  animation: waveEmoji 2s infinite ease-in-out;
+}
 .main-text {
   color: var(--clr-rose);
   cursor: pointer;
