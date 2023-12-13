@@ -3,7 +3,6 @@
   justify-content: center;
 }
 
-
 .full-header-intro-div {
   display: flex;
   justify-content: center;
@@ -25,10 +24,7 @@
   width: 400px;
   height: 300px;
   vertical-align: top;
-  
 }
-
-
 
 .intro-div {
   display: flex;
@@ -65,7 +61,7 @@
 .developer-heading {
   color: var(--clr-light);
   font-size: 32px;
-  font-family: 'General Sans', sans-serif;
+  font-family: "General Sans", sans-serif;
   display: block;
   margin-top: 60px;
   margin-bottom: 10px;
@@ -80,13 +76,11 @@
   color: var(--clr-slate600);
 }
 
-
 .mai-san {
   width: 130px;
   filter: drop-shadow(7px 7px 30px var(--clr-shadow));
   cursor: pointer;
   transform: translateY(40px);
-
 }
 
 .indigo-text {
@@ -98,9 +92,8 @@
 }
 
 .indigo-text:hover {
-  text-shadow: 0 0 10px var(--clr-indigo); 
+  text-shadow: 0 0 10px var(--clr-indigo);
 }
-
 
 .red-text {
   color: var(--clr-rose);
@@ -110,9 +103,8 @@
 }
 
 .red-text:hover {
-  text-shadow: 0 0 10px var(--clr-rose); 
+  text-shadow: 0 0 10px var(--clr-rose);
 }
-
 
 .about-section {
   max-width: 694px;
@@ -131,9 +123,10 @@
   word-wrap: break-word;
   margin: 0 auto;
   animation: opacityFrom0To1 1.2s ease;
+  margin-bottom: 30px;
 }
 
-.about-heading {
+.heading {
   /* animation-name: slideInLeft;
   animation-duration: 1.2s;
   animation-timing-function: ease;
@@ -151,7 +144,6 @@
   color: var(--clr-light);
 }
 
-
 .about-text {
   width: 100%;
   font-family: Poppins, sans-serif;
@@ -162,7 +154,6 @@
   text-align: center;
   white-space: normal;
 }
-
 
 .apathetic-text {
   font-family: Roboto, sans-serif;
@@ -176,7 +167,5 @@
 }
 
 .apathetic-text:hover {
-  text-shadow: 0 0 10px var(--clr-rose); 
+  text-shadow: 0 0 10px var(--clr-rose);
 }
-
-

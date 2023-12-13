@@ -1,4 +1,3 @@
-
 @media (max-width: 768px) {
   /*main section*/
   .header {
@@ -11,9 +10,8 @@
     width: 100%;
     margin-bottom: 50px;
     scale: 100% !important;
-    
   }
-  
+
   .intro-div {
     margin-top: 0;
     padding-top: 0;
@@ -25,7 +23,8 @@
     margin-bottom: 0;
   }
 
-  .intro, .intro-heading {
+  .intro,
+  .intro-heading {
     font-size: 32px;
   }
 
@@ -41,31 +40,30 @@
 
   .mai-san {
     width: 90px;
-    transform: translateY(-10px)
+    transform: translateY(-10px);
   }
 
   .contact-me-button {
     scale: 60%;
     font-size: 9px;
   }
-  
+
   .contact-section {
     margin: 3px !important;
   }
-  
+
   .about-section {
     width: 69%;
     margin-top: 30px !important;
-   
   }
   .about-heading {
     font-size: 16px;
   }
-  
+
   .about-text {
     font-size: 11px;
   }
-  
+
   .apathetic-text {
     font-size: 13px;
   }
@@ -80,19 +78,19 @@
   .link-lang {
     width: 100px;
   }
-  
+
   .lang {
     width: 54px;
   }
-  
+
   .head-text-skills {
     font-size: 13px;
     margin-bottom: 6px;
   }
-  
+
   .text-skills {
     font-size: 10px;
-    line-height: .9rem;
+    line-height: 0.9rem;
   }
 
   .skills-paragraph {
@@ -109,7 +107,7 @@
   .footer-spotify-link {
     width: 15px;
   }
-  
+
   .link-text {
     font-size: 8px;
     margin-top: 0px;
@@ -128,7 +126,7 @@
   .mai-san-logo {
     width: 22px;
   }
-  .nav{
+  .nav {
     display: none;
   }
 
@@ -139,25 +137,23 @@
     align-items: center;
     margin-bottom: 40px;
     width: 300px;
-    
   }
-  
+
   .intro-div {
     width: 191px;
     margin-top: 0;
     padding-top: 0;
     padding: 0;
-    
   }
 
   .intro-section {
     margin-bottom: 0px;
     width: 200px;
     height: 229px;
-    
   }
 
-  .intro, .intro-heading {
+  .intro,
+  .intro-heading {
     font-size: 25px;
     margin-bottom: 15px;
   }
@@ -181,23 +177,22 @@
     scale: 38%;
     font-size: 9px;
   }
-  
+
   .contact-section {
     margin: -10px !important;
   }
-  
+
   .about-section {
     width: 70%;
-   
   }
   .about-heading {
     font-size: 12px;
   }
-  
+
   .about-text {
     font-size: 9px;
   }
-  
+
   .apathetic-text {
     font-size: 10px;
   }
@@ -219,19 +214,19 @@
   .link-lang {
     width: 100px;
   }
-  
+
   .lang {
     width: 48px;
   }
-  
+
   .head-text-skills {
     font-size: 11px;
     margin-bottom: 6px;
   }
-  
+
   .text-skills {
     font-size: 9px;
-    line-height: .9rem;
+    line-height: 0.9rem;
   }
 
   .skills-paragraph {
@@ -248,7 +243,7 @@
   .footer-spotify-link {
     width: 15px;
   }
-  
+
   .link-text {
     font-size: 8px;
     margin-top: 0px;
@@ -263,7 +258,6 @@
 }
 
 @media (max-width: 394px) {
-
   .nav {
     display: none;
   }
@@ -275,14 +269,12 @@
   .link-text {
     display: none;
   }
-
 }
-
 
 @media (max-width: 324px) {
   .header-website-name {
     font-size: 8px;
-    transform: translateX(-5px)
+    transform: translateX(-5px);
   }
 
   .mai-san-logo {
@@ -298,8 +290,7 @@
     width: 40% !important;
     padding: 10px;
     margin-top: 0px !important;
-    transform: translateY(-30px)
-
+    transform: translateY(-30px);
   }
 
   .about-heading {
@@ -343,7 +334,7 @@
   .footer-spotify-link {
     width: 8px;
   }
-  
+
   .link-text {
     font-size: 6px;
     margin-top: 0px;
@@ -358,5 +349,4 @@
   .link {
     width: 13px;
   }
-
 }
