@@ -197,9 +197,11 @@
 }
 
 .game_image {
-  width: 330px;
-  border-radius: 9px;
+  width: 100%;
+  max-width: 260px;
+  border-radius: 20px;
   opacity: 0,8;
+  padding: 1px 10px 1px 10px;
   transition: all 0.3s;
 }
 
@@ -209,12 +211,4 @@
   opacity: 1;
 }
 
-.heading-bottom {
-  font-family: Poppins, sans-serif;
-  font-size: 12px;
-  font-weight: bold;
-  margin: 50px auto;
-  display: flex;
-  justify-content: center;
-}
 
