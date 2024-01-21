@@ -20,6 +20,7 @@
   transition: all 0.4s;
   cursor: pointer;
   margin-top: 10px;
+  width: 350px;
 }
 
 .contact-me-button:hover {

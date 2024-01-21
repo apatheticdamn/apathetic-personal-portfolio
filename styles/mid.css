@@ -86,6 +86,7 @@
   padding-top: 5px;
   transition: color 0.4s;
   color: rgb(149, 149, 149);
+  margin-bottom: 6px;
 }
 
 .link-lang:hover .head-text-skills {
@@ -105,7 +106,7 @@
 .text-skills {
   color: var(--clr-slate600);
   transition: color 0.4s;
-  line-height: 1.2rem;
+  line-height: 1.4rem;
 }
 
 .link-lang:hover .text-skills {
@@ -139,7 +140,7 @@
   gap: 10px;
   margin: 30px auto;
   max-width: 700px;
-  margin-bottom: 150px;
+  margin-bottom: 110px;
 }
 
 .movie_image,
@@ -166,7 +167,7 @@
   margin: 30px auto;
   max-width: 500px;
   flex-wrap: wrap;
-  margin-bottom: 150px;
+  margin-bottom: 110px;
 
 }
 

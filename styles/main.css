@@ -81,10 +81,6 @@
   color: var(--clr-slate600);
 }
 
-.mai-san-full-body-div > img {
-  animation: fadeIn linear;
-  animation-timeline: view();
-}
 
 .mai-san {
   width: 130px;
