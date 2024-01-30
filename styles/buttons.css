@@ -13,14 +13,14 @@
   padding: 10px;
   border-style: solid;
   border-width: 3px;
-  border-radius: 4px;
+  border-radius: 7px;
   border-color: var(--clr-rose);
   background-color: var(--clr-dark);
   color: var(--clr-rose);
   transition: all 0.4s;
   cursor: pointer;
   margin-top: 10px;
-  width: 350px;
+  width: 150px;
 }
 
 .contact-me-button:hover {
