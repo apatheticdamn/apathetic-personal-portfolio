@@ -187,7 +187,6 @@
 .games {
   display: flex;
   flex-direction: row;
-  max-width: 820px;
   gap: 30px;
   flex-wrap: wrap;
   align-items: center;
