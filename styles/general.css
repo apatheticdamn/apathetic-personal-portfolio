@@ -33,6 +33,7 @@ strong {
 
 body {
   background-color: var(--clr-dark);
+  scroll-padding-top: 1000px;
 }
 
 html {
