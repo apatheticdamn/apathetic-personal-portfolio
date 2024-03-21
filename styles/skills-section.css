@@ -38,56 +38,56 @@
 
 .languages-and-tools > .html:hover {
   color: var(--clr-light);
-  background-color: rgb(255, 51, 0);
+  border-color: rgb(255, 51, 0);
   cursor: pointer;
 }
 
 .languages-and-tools > .css:hover {
   color: var(--clr-light);
-  background-color: rgb(0, 153, 255);
+  border-color: rgb(0, 153, 255);
   cursor: pointer;
 }
 
 .languages-and-tools > .js:hover {
 
-  color: var(--clr-dark);
-  background-color: rgb(255, 251, 0);
+  color: var(--clr-light);
+  border-color: rgb(255, 251, 0);
   cursor: pointer;
 }
 
 .languages-and-tools > .py:hover {
   color: var(--clr-light);
-  background-color: var(--clr-rose);
+  border-color: var(--clr-rose);
   cursor: pointer;
 }
 
 .languages-and-tools > .c:hover {
   color: var(--clr-light);
-  background-color: rgb(0, 47, 255);
+  border-color: rgb(0, 47, 255);
   cursor: pointer;
 }
 
 .languages-and-tools > .md:hover {
-  color: var(--clr-dark);
-  background-color: rgb(204, 204, 204);
+  color: var(--clr-light);
+  border-color: rgb(204, 204, 204);
   cursor: pointer;
 }
 
 .languages-and-tools > .git:hover {
   color: var(--clr-light);
-  background-color: rgb(255, 51, 0);
+  border-color: rgb(255, 51, 0);
   cursor: pointer;
 }
 
 .languages-and-tools > .gh:hover {
   color: var(--clr-light);
-  background-color: rgb(0, 0, 0);
+  border-color: rgb(0, 0, 0);
   cursor: pointer;
 }
 
 .languages-and-tools > .nvim:hover {
-  color: var(--clr-dark);
-  background-color: rgb(36, 172, 18);
+  color: var(--clr-light);
+  border-color: rgb(36, 172, 18);
   cursor: pointer;
 }
 
