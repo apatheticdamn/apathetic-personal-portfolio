@@ -45,3 +45,11 @@
   filter: drop-shadow(7px 7px 30px var(--clr-shadow));
   cursor: pointer;
 }
+
+.apathetic {
+  text-shadow: 0 0px 10px rgba(225, 29, 72, 0.3), 
+                 0 0px 20px rgba(225, 29, 72, 0.2), 
+                 0 0px 30px rgba(225, 29, 72, 0.6), 
+                 0 0px 40px rgba(225, 29, 72, 0.2), 
+                 0 0px 50px rgba(225, 29, 72, 0.3);
+}
