@@ -18,17 +18,47 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
-  width: 100px;
-  height: 80px;
   color: var(--clr-slate600);
   font-family: 'General Sans', sans-serif;
   font-weight: bold;
   font-size: 14px;
+  margin: 0 0 100px 0;
 }
 
+.hobbies-header {
+  margin: 0 0 20px 0;
+}
+
+.hobby {
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.hobby:hover {
+  color: var(--clr-light);
+  border-color: var(--clr-light);
+  transform: translateY(-10px);
+}
+
+
 .computer-hobby, .movies-hobby, .games-hobby {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
   border-style: solid;
   border-color: var(--clr-slate600);
   border-radius: 10px;
   border-width: 2px;
+}
+
+.hobby-imgs {
+  width: 48px;
+  transition: all 0.3s;
+}
+
+.hobby:hover > .hobby-imgs {
+    transform: translateY(-6px);
 }
