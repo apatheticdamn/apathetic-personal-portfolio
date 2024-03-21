@@ -1,385 +1,150 @@
 @media (max-width: 768px) {
-  /*main section*/
-  .header {
-    font-size: 11px;
-    height: 40px;
+  .hero-section {
+    gap: 10px;
   }
 
-  .full-header-intro-div {
-    margin-top: 140px !important;
-    width: 100%;
-    margin-bottom: 50px;
-    scale: 100% !important;
-  }
-
-  .intro-div {
-    margin-top: 0;
-    padding-top: 0;
-    width: 250px;
-  }
-
-  .intro-section {
-    width: 288px;
-    margin-bottom: 0;
-  }
-
-  .intro,
-  .intro-heading {
-    font-size: 32px;
-  }
-
-  .developer-heading {
-    font-size: 21px;
-    margin-top: 29px;
-  }
-
-  .developer-description {
-    font-size: 12px;
-    width: 288px;
-  }
-
-  .mai-san {
-    width: 90px;
-    transform: translateY(-10px);
-  }
-
-  .contact-me-button {
-    scale: 70%;
+  .heading-pop1, .heading-gen1 {
+    font-size: 45px;
+ }
+  .heading-pop2, .heading-gen2 {
+    font-size: 30px;
+ }
+  .heading-pop3, .heading-gen3 {
+    font-size: 20px;
+ }
+  .heading-pop4, .heading-gen4 {
     font-size: 10px;
-    width: 300px;
-  }
+ }
 
-  .contact-section {
-    margin: 3px !important;
-  }
+ .mai-san-img {
+  width: 120px;
+ }
 
-  .about-section {
-    width: 69%;
-    margin-top: 30px !important;
-  }
-  .heading {
-    font-size: 16px;
-  }
+ .about-section {
+  width: 450px;
+ }
 
-  .about-text {
-    font-size: 11px;
-  }
+ .about-section-text {
+  font-size: 13px;
+ }
 
-  .apathetic-text {
-    font-size: 13px;
-  }
+ .skills-paragraph {
+  width: auto;
+ }
 
-  /* Mid Section */
-  .skills-heading {
-    
-    font-size: 16px;
-    padding-top: 39px;
-    margin-bottom: 5px;
-  }
+ .hobbies {
+  grid-template-columns: 140px 140px;
+ }
 
-  .link-lang {
-    width: 100px;
-    border-radius: 50px;
-  }
+}
 
-  .lang {
-    width: 54px;
-  }
-
-  .head-text-skills {
-    display: none;
-  }
-
-  .text-skills {
-    display: none;
-  }
-
-  .skills-paragraph {
-    font-size: 9px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 60px;
-  }
-
-  .favourites {
-    display: none;
-  }
-
-  /*Footer section*/
-  .footer-discord-link,
-  .footer-github-link,
-  .footer-instagram-link,
-  .footer-spotify-link {
-    width: 15px;
-  }
-
-  .link-text {
+@media (max-width: 609px) {
+  .heading-pop1, .heading-gen1 {
+    font-size: 30px;
+ }
+  .heading-pop2, .heading-gen2 {
+    font-size: 22px;
+ }
+  .heading-pop3, .heading-gen3 {
+    font-size: 14px;
+ }
+  .heading-pop4, .heading-gen4 {
     font-size: 8px;
-    margin-top: 0px;
-  }
+ }
 
-  .footer-links-div {
-    width: 22px;
-  }
-  .lower-section-div {
-    height: 70px;
-  }
+ .into-paragraph {
+  width: 200px;
+ }
+
+ .paragraph-pop-slate600 {
+  font-size: 13px;
+ }
+ 
+ .mai-san-img {
+  width: 120px;
+ }
+
+ .about-section {
+  width: 450px;
+ }
+
+ .about-section-text {
+  font-size: 13px;
+ }
+
+ .skills-paragraph {
+  width: auto;
+ }
+
+ .hobbies {
+  grid-template-columns: 140px 140px;
+ }
 }
 
 @media (max-width: 480px) {
-  /*main section*/
-  .mai-san-logo {
-    width: 22px;
-  }
-  .nav {
-    display: none;
-  }
-
-  .full-header-intro-div {
-    margin-top: 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 40px;
+  .intro-container {
     width: 300px;
   }
 
-  .intro-div {
-    width: 191px;
-    margin-top: 0;
-    padding-top: 0;
-    padding: 0;
-  }
-
-  .intro-section {
-    margin-bottom: 0px;
-    width: 200px;
-    height: 229px;
-  }
-
-  .intro,
-  .intro-heading {
-    font-size: 25px;
-    margin-bottom: 15px;
-  }
-
-  .developer-heading {
-    font-size: 15px;
-    margin-top: 19px;
-  }
-
-  .developer-description {
-    font-size: 9px;
-    width: 204px;
-  }
-
-  .mai-san {
-    width: 70px;
-    transform: translateY(7px);
-  }
-
-  .contact-me-button {
-    scale: 48%;
-    font-size: 11px;
-    width: 200px;
-    height: 60px !important;
-  }
-
-  .contact-section {
-    margin: -10px !important;
-  }
-
-  .about-section {
-    width: 70%;
-  }
-  .about-heading {
-    font-size: 12px;
-  }
-
-  .about-text {
-    font-size: 9px;
-  }
-
-  .apathetic-text {
-    font-size: 10px;
-  }
-
-  /* Mid Section */
-  .skills-heading {
-    font-size: 13px;
-    padding-top: 39px;
-    margin-bottom: 5px;
-  }
-
-  .middle-section {
-    margin-top: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .link-lang {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 60px;
-    border-radius: 30px;
-    height: 0;
-  }
-
-  .lang {
-    width: 28px;
-    margin: 0 auto;
-  }
-
-  .head-text-skills {
-    font-size: 11px;
-    margin-bottom: 6px;
-  }
-
-  .text-skills {
-    font-size: 9px;
-    line-height: 0.9rem;
-  }
-
-  .skills-paragraph {
-    font-size: 9px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 30px;
-  }
-  .favourites {
-    transform: scale(.7);
-  }
-  .movies_and_shows {
-    margin: 0;
-  }
-
-  .songs {
-    margin-bottom: 0;
-  }
-
-  .games { 
-    margin: 0;
-  }
-  
-
-  /*Footer section*/
-  .footer-discord-link,
-  .footer-github-link,
-  .footer-instagram-link,
-  .footer-spotify-link {
-    width: 15px;
-  }
-
-  .link-text {
+  .heading-pop1, .heading-gen1 {
+    font-size: 30px;
+ }
+  .heading-pop2, .heading-gen2 {
+    font-size: 22px;
+ }
+  .heading-pop3, .heading-gen3 {
+    font-size: 14px;
+ }
+  .heading-pop4, .heading-gen4 {
     font-size: 8px;
-    margin-top: 0px;
-  }
+ }
 
-  .footer-links-div {
-    width: 22px;
-  }
-  .lower-section-div {
-    height: 70px;
-  }
+  .intro-paragraph {
+  width: 300px;
+} 
+ .paragraph-pop-slate600 {
+  font-size: 12px;
+ }
+
+ .mai-san-img {
+  width: 80px;
+ }
 }
 
 @media (max-width: 394px) {
-  .nav {
-    display: none;
-  }
-
-  .link {
-    width: 30px;
-  }
-  .heading {
+  .heading-pop1, .heading-gen1 {
+    font-size: 45px;
+ }
+  .heading-pop2, .heading-gen2 {
+    font-size: 30px;
+ }
+  .heading-pop3, .heading-gen3 {
+    font-size: 20px;
+ }
+  .heading-pop4, .heading-gen4 {
     font-size: 10px;
-  }
-  .favourites {
-  display: none;}
-  .link-text {
-    display: none;
-  }
+ }
+
+ .mai-san-img {
+  width: 120px;
+ }
 }
 
 @media (max-width: 324px) {
-  .header-website-name {
-    font-size: 8px;
-    transform: translateX(-5px);
-  }
+  .heading-pop1, .heading-gen1 {
+    font-size: 45px;
+ }
+  .heading-pop2, .heading-gen2 {
+    font-size: 30px;
+ }
+  .heading-pop3, .heading-gen3 {
+    font-size: 20px;
+ }
+  .heading-pop4, .heading-gen4 {
+    font-size: 10px;
+ }
 
-  .mai-san-logo {
-    width: 15px;
-  }
-
-  .full-header-intro-div {
-    scale: 69% !important;
-    margin-top: 40px !important;
-  }
-
-  .about-section {
-    width: 40% !important;
-    padding: 10px;
-    margin-top: 0px !important;
-    border-radius: 10px;
-    transform: translateY(-30px);
-  }
-
-  .about-heading {
-    font-size: 8px;
-    margin-top: 3px;
-    margin-bottom: 3px;
-  }
-
-  .apathetic-text {
-    font-size: 7px;
-  }
-
-  .about-text {
-    font-size: 6px;
-  }
-
-
-  .middle-section {
-    display: none;
-  }
-
-  .skills-paragraph {
-    font-size: 6px;
-    line-height: 10px;
-    padding-top: 0;
-    padding-bottom: 0;
-    transform: translateY(-30px);
-  }
-
-  .favourites {
-    display: none;
-  }
-
-  .heading {
-    display: none;
-  }
-
-  .footer-discord-link,
-  .footer-github-link,
-  .footer-instagram-link,
-  .footer-spotify-link {
-    width: 8px;
-  }
-
-  .link-text {
-    font-size: 6px;
-    margin-top: 0px;
-  }
-
-  .footer-links-div {
-    width: 17px;
-  }
-  .lower-section-div {
-    height: 70px;
-  }
-  .link {
-    width: 13px;
-  }
+ .mai-san-img {
+  width: 120px;
+ }
 }
