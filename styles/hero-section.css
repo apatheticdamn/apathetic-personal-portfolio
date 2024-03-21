@@ -17,7 +17,7 @@
 
 .intro-header-div {
   display: flex;
-  line-height: 50px;
+  line-height: 60px;
   text-align: center;
   margin: 0 0 18px 0;
   padding: 16px 0 0 0;
@@ -30,8 +30,8 @@
 
 .intro-paragraph {
   text-align: center;
-  width: 300px;
-  margin: 10px 0 0 0;
+  width: 400px;
+  margin: 5px 0 0 0;
 }
 
 .mai-san-full-body-div {

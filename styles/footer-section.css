@@ -3,6 +3,15 @@
   border-width: 0.01rem;
 }
 
+.footer-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .footer-instagram-link,
 .footer-discord-link {
   width: 19px;
@@ -34,16 +43,6 @@
   background-color: rgb(37, 37, 37);
 }
 
-.lower-section {
-  margin: 0 auto;
-  height: 100px;
-  width: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 10px 10px 10px;
-  margin-top: 60px;
-}
 
 .link {
   width: 54px;
@@ -56,17 +55,9 @@
   cursor: default;
 }
 
-.logo-section {
-  display: flex;
-  justify-content: center;
-  column-gap: 12px;
-  align-items: center;
-}
-
 .link:hover .link-text {
   color: var(--clr-rose);
 }
-
 
 .link-text {
   margin: 0;
@@ -81,12 +72,3 @@
   transition: color 0.4s;
 }
 
-
-.lower-section-div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
