@@ -1,0 +1,47 @@
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 90px 100px 100px 100px;
+  height: 500px;
+  gap: 40px;
+}
+
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+}
+
+.intro-header-div {
+  display: flex;
+  line-height: 50px;
+  text-align: center;
+  margin: 0 0 18px 0;
+  padding: 16px 0 0 0;
+}
+
+.wave-emoji {
+  display: inline-block;
+  transform-origin: 75% 1020%;
+}
+
+.intro-paragraph {
+  text-align: center;
+  width: 300px;
+  margin: 10px 0 0 0;
+}
+
+.mai-san-full-body-div {
+  display: flex;
+  justify-content: top;
+  align-items: top;
+}
+
+.mai-san-img {
+  width: 150px;
+  filter: drop-shadow(7px 7px 30px var(--clr-shadow));
+  cursor: pointer;
+}
