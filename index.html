@@ -10,23 +10,28 @@
         rel="stylesheet">
     <link href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400&display=swap" rel="stylesheet">
 
-    <link href="styles/header.css" rel="stylesheet">
-    <link href="styles/main.css" rel="stylesheet">
-    <link href="styles/mid.css" rel="stylesheet">
     <link href="styles/general.css" rel="stylesheet">
-    <link href="styles/footer.css" rel="stylesheet">
+    <link href="styles/header-section.css" rel="stylesheet">
+    <link href="styles/hero-section.css" rel="stylesheet">
+    <link href="styles/about-section.css" rel="stylesheet">
+    <link href="styles/skills-section.css" rel="stylesheet">
+    <link href="styles/footer-section.css" rel="stylesheet">
+    <link href="styles/animations/animations.css" rel="stylesheet">
     <link href="styles/media-queries.css" rel="stylesheet">
     <link rel="icon" href="images/mai-san-round.png">
     <link href="styles/buttons.css" rel="stylesheet">
-    <link href="styles/animations/animations.css" rel="stylesheet">
     <script src="./script/script.js"></script>
 </head>
 
 <body>
-    <span class="message-text">You cannot use this website on your device</span>
+    <span class="message-text">
+        You cannot use this website on your device
+    </span>
     <header class="header">
         <img src="images/mai-san-pfp.jpg" alt="mai-san-logo" class="mai-san-logo">
-        <span class="header-website-name">Apathetic</span>
+        <span class="header-website-name">
+            Apathetic
+        </span>
         <nav class="nav">
 
             <div class="hamburgur-menu">
@@ -52,20 +57,29 @@
             </div>
         </nav>
     </header>
-    <main id="home" class="main-div">
-        <div class="full-header-intro-div">
-            <div class="intro-section">
-                <section class="intro-div">
-                    <h3 class="intro-heading">
-                        Hi <span class="wave-emoji">👋</span>, It's Me
-                    </h3>
-                    <h1 class="intro">I'm<a class="main-text" href="https://dictionary.cambridge.org/dictionary/english/apathetic" target="_blank"> Apathetic</a></h1>
-                </section>
-                <h3 class="developer-heading"><span class="rose-text">Front End</span> Developer</h3>
-                <p class="developer-description">As a <strong>front-end developer</strong>, I excel in creating
+
+    <section id="home" class="hero-section">
+            <div class="intro-container">
+                <div class="intro-header-div">
+                    <div class="intro-header">
+                        <h2 class="heading-pop2">
+                        Hi 
+                        <span class="wave-emoji">
+                            👋
+                        </span>
+                        , It's Me
+                    </h2>
+                    <h1 class="heading-pop1">I'm<a class="main-text" href="https://dictionary.cambridge.org/dictionary/english/apathetic" target="_blank">&nbsp;Apathetic</a></h1></div>
+                </div>
+
+                <h3 class="heading-pop2"><span class="rose-text">Front&nbsp;End</span>&nbsp;Developer </h3>
+                
+                <div class="intro-paragraph">
+                <p class="paragraph-pop-slate600">As a <strong>front-end developer</strong>, I excel in creating
                     <strong>visually stunning</strong> and <strong>responsive</strong> web interfaces with a passion for
                     cutting-edge technologies.
                 </p>
+                </div>
                 <div class="contact-section" id="contact">
                     <a href="mailto: apathetic.damn@gmail.com">
                         <button id="contact-me" class="contact-me-button">Contact Me</button>
@@ -73,14 +87,13 @@
                 </div>
             </div>
             <div class="mai-san-full-body-div">
-                <img src="images/mai-san-full-body.webp" alt="mai-san-full-body-pic" class="mai-san">
+                <img src="images/mai-san-full-body.webp" alt="mai-san-full-body-pic" class="mai-san-img">
             </div>
-        </div>
-        </main>
-        <div class="mid-div">
+        </section>
+
         <section class="about-section" id="about">
-            <h3 class="heading">About me</h3>
-            <p class="about-text">
+            <h3 class="heading-pop3">About me</h3>
+            <p class="about-section-text">
                 <span class="apathetic-text">Apathetic</span>, I don't mean that in a bad way. I just don't get worked
                 up about things very easily. I'm not easily excited or disappointed. I'm not easily angered or saddened.
                 <br><br>
@@ -100,262 +113,39 @@
             </p>
         </section>
     
-    <h3 id="projects" class="heading">Skillset/Projects</h3>
-    <section class="middle-section">
-
-        <a class="link-lang" target="_blank">
-            <div class="html-lang-div">
-                <div class="link-lang-image-div"><img class="lang" src="icons/programming-languages-icons/html5.png"
-                        alt="html-language-pic"></div>
-                <p class="html-lang"><span class="head-text-skills">HTML</span></p>
-                <p class="text-skills">Get some of my minor HTML projects.</p>
-            </div>
-        </a>
-        <a class="link-lang" target="_blank">
-            <div class="css-lang-div">
-                <div class="image-div"><img class="lang" src="icons/programming-languages-icons/css.png"
-                        alt="css-language-pic"></div>
-                <p class="css-lang"><span class="head-text-skills">CSS</span></p>
-                <p class="text-skills">Get some of my minor CSS projects.</p>
-            </div>
-        </a>
-        <a class="link-lang" target="_blank">
-            <div class="javascript-lang-div">
-                <div class="image-div"><img class="lang" src="icons/programming-languages-icons/javascript.png"
-                        alt="javascript-language-pic"></div>
-                <p class="javascript-lang">
-                    <span class="head-text-skills">Javascript</span>
-                </p>
-                <p class="text-skills">Get some of my minor Javascript projects.</p>
-            </div>
-        </a>
-        <a class="link-lang" target="_blank">
-            <div class="python-lang-div">
-                <div class="image-div"><img class="lang" src="icons/programming-languages-icons/python.png"
-                        alt="python-language-pic"></div>
-                <p class="python-lang"><span class="head-text-skills">Python</span></p>
-                <p class="text-skills">Get some of my minor Python programs.</p>
-            </div>
-        </a>
+    <section class="skills-section">
+        <div class="skills-header">
+        <h3 id="skills" class="heading-pop3">Skillset</h3>
+        </div>
+        <div class="languages-and-tools">
+        <div class="lang html">HTML</div>
+        <div class="lang css">CSS</div>
+        <div class="lang js">JavaScript</div>
+        <div class="lang py">Python</div>
+        <div class="lang c">C</div>
+        <div class="lang md">Markdown</div>
+        <div class="lang git">Git</div>
+        <div class="lang gh">Github</div>
+        <div class="lang nvim">Neovim</div>
+        </div>
     </section>
     <div class="skills-full-paragraph-div">
         <p class="skills-paragraph">
-            Well, I'm pretty good with <span style="color: rgb(255, 47, 0); font-weight: bold;">HTML</span>, <span
-                style="color: rgb(0, 183, 255); font-weight: bold;">CSS</span>, <span
-                style="color: rgb(246, 255, 0); font-weight: bold;">JavaScript</span> & <span
-                style="color: var(--clr-rose); font-weight: bold;">Python</span>. I know the ins and outs of these
+            Well, I'm pretty good with 
+                <span style="color: rgb(255, 47, 0); font-weight: bold;">HTML</span>, 
+                <span
+                style="color: rgb(0, 183, 255); font-weight: bold;">CSS</span>, 
+                <span
+                style="color: rgb(246, 255, 0); font-weight: bold;">JavaScript</span>, 
+                <span
+                style="color: var(--clr-rose); font-weight: bold;">Python</span> &
+                <span
+                style="color: rgb(0, 47, 255); font-weight: bold;">C</span>. I know the ins and outs of these
             languages and how to use them to build cool stuff on the web. I'm always learning new things, too, so I'm
             confident I can tackle whatever you throw my way.
         </p>
     </div>
 </div>
-    <div class="favourites">
-        <h3 class="heading">My Favourite movies and shows</h3>
-        <div class="movies_and_shows">
-            <div class="surface">
-                <a href="https://www.imdb.com/title/tt3783958/" target="_blank">
-                    <img src="/images/movies_and_shows/lalaland.jpg" alt="La La Land" class="movie_image">
-                </a>
-            </div>
-            <div class="surface">
-                <a href="https://www.imdb.com/title/tt6644200/" target="_blank">
-                    <img src="/images/movies_and_shows/a_quiet_place.jpg" alt="A Quiet Place" class="movie_image">
-                </a>
-            </div>
-            <div class="surface">
-                <a href="https://www.imdb.com/title/tt0816692/" target="_blank">
-                    <img src="/images/movies_and_shows/intersteller.jpg" alt="Intersteller" class="movie_image">
-                </a>
-            </div>
-            <div class="surface">
-                <a href="https://www.imdb.com/title/tt1856101/" target="_blank">
-                    <img src="/images/movies_and_shows/blade_runner.jpg" alt="Blade Runner 2049" class="movie_image">
-                </a>
-            </div>
-            <div class="surface">
-                <a href="https://www.imdb.com/title/tt9426210/" target="_blank">
-                    <img src="/images/movies_and_shows/wwy.jpg" alt="Weathering with you" class="movie_image">
-                </a>
-            </div>
-            <div class="surface">
-                <a href="https://www.imdb.com/title/tt4158110/" target="_blank">
-                    <img src="/images/movies_and_shows/mr_robot.jpg" alt="Mr. Robot" class="show_image">
-                </a>
-            </div>
-            <div class="surface">
-                <a href="https://www.imdb.com/title/tt7236034/" target="_blank">
-                    <img src="/images/movies_and_shows/i_want_to_eat_your_pancreas.jpg"
-                        alt="I Want To Eat Your Pancreas" class="movie_image">
-                </a>
-            </div>
-            <div class="surface">
-                <a href="https://www.imdb.com/title/tt5990474/" target="_blank">
-                    <img src="/images/movies_and_shows/columbus.jpg" alt="Columbus" class="movie_image">
-                </a>
-            </div>
-            <div class="surface">
-                <a href="https://www.imdb.com/title/tt1022603/" target="_blank">
-                    <img src="/images/movies_and_shows/500_days_of_summer.jpg" alt="(500) Days of Summer"
-                        class="movie_image">
-                </a>
-            </div>
-            <div class="surface">
-                <a href="https://www.imdb.com/title/tt0780504/" target="_blank">
-                    <img src="/images/movies_and_shows/drive.jpg" alt="Drive" class="movie_image">
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="favourites">
-        <h3 class="heading">My Favourite songs</h3>
-        <div class="songs">
-            <div class="surface">
-                <a href="https://open.spotify.com/track/0yc6Gst2xkRu0eMLeRMGCX?si=a76def62e9d64545" target="_blank">
-                    <img src="/images/songs/apocalypse.jpg" alt="Apocalypse" class="song_image">
-                </a>
-            </div>
-
-            <div class="surface">
-                <a href="https://open.spotify.com/track/2p8IUWQDrpjuFltbdgLOag?si=a572481fa40d4177" target="_blank">
-                    <img src="/images/songs/after_hours.jpg" alt="After Hours" class="song_image">
-                </a>
-            </div>
-
-            <div class="surface">
-                <a href="#link_to_double_take" target="_blank">
-                    <img src="/images/songs/double_take.jpg" alt="Double Take" class="song_image">
-                </a>
-            </div>
-
-            <div class="surface">
-                <a href="https://open.spotify.com/track/6l0H7oWEx6Uc0lraxrxnYG?si=cb405ee81b25466b" target="_blank">
-                    <img src="/images/songs/leaving_on_a_jet_plane.jpg" alt="Leaving on a Jet Plane" class="song_image">
-                </a>
-            </div>
-
-            <div class="surface">
-                <a href="https://open.spotify.com/track/285ieonEuLkll3zknYK2TY?si=b776952ed8e24e01" target="_blank">
-                    <img src="/images/songs/the_last_of_us.jpg" alt="The Last of Us" class="song_image">
-                </a>
-            </div>
-
-            <div class="surface">
-                <a href="https://open.spotify.com/track/2m6Ko3CY1qXNNja8AlugNc?si=ccd97309167840c4" target="_blank">
-                    <img src="/images/songs/angel_baby.jpg" alt="Angel Baby" class="song_image">
-                </a>
-            </div>
-            <div class="surface">
-                <a href="https://open.spotify.com/track/7yq4Qj7cqayVTp3FF9CWbm?si=576fc4d3bea24cf0" target="_blank">
-                    <img src="/images/songs/riptide.jpg" alt="Riptide" class="song_image">
-                </a>
-            </div>
-            <div class="surface">
-                <a href="https://open.spotify.com/track/5E30LdtzQTGqRvNd7l6kG5?si=40f2f57fd98d46dd" target="_blank">
-                    <img src="/images/songs/daddy_issues.jpg" alt="Daddy Issues" class="song_image">
-                </a>
-            </div>
-            <div class="surface">
-                <a href="https://open.spotify.com/track/42qNWdLKCI41S4uzfamhFM?si=c7f5a48b27284bb2" target="_blank">
-                    <img src="/images/songs/duvet_boa.jpg" alt="Duvet Boa" class="song_image">
-                </a>
-            </div>
-            <div class="surface">
-                <a href="https://open.spotify.com/track/7uDUb37h7Xdhza1eWMkoJv?si=e73cfe80ad2c4139" target="_blank">
-                    <img src="/images/songs/friends.jpg" alt="Friends" class="song_image">
-                </a>
-            </div>
-            <div class="surface">
-                <a href="https://open.spotify.com/track/6CRX3ENpLq42r0iBSjOqr1?si=01c3adb347ed4854" target="_blank">
-                    <img src="/images/songs/grand_escape.jpg" alt="Grand Escape" class="song_image">
-                </a>
-            </div>
-            <div class="surface">
-                <a href="https://open.spotify.com/track/3vkCueOmm7xQDoJ17W1Pm3?si=0eb981e891194d70" target="_blank">
-                    <img src="/images/songs/my_love_mine.jpg" alt="My Love Mine" class="song_image">
-                </a>
-            </div>
-            <div class="surface">
-                <a href="#link_to_angel_baby" target="_blank">
-                    <img src="/images/songs/sparkle.jpg" alt="Sparkle" class="song_image">
-                </a>
-            </div>
-            <div class="surface">
-                <a href="https://open.spotify.com/track/10nyNJ6zNy2YVYLrcwLccB?si=98a8b7b6e9974cdf" target="_blank">
-                    <img src="/images/songs/no_surprises.jpg" alt="No Surprises" class="song_image">
-                </a>
-            </div>
-            <div class="surface">
-                <a href="https://open.spotify.com/track/3BJe4B8zGnqEdQPMvfVjuS?si=bd99999a04084481" target="_blank">
-                    <img src="/images/songs/summer_time_sadness.jpg" alt="Summer Time Sadness" class="song_image">
-                </a>
-            </div>
-            <div class="surface">
-                <a href="https://open.spotify.com/track/1Y3LN4zO1Edc2EluIoSPJN?si=b18c124f7b4f4e41" target="_blank">
-                    <img src="/images/songs/until_i_found_her.jpg" alt="Until I Found Her" class="song_image">
-                </a>
-            </div>
-            <div class="surface">
-                <a href="https://open.spotify.com/track/7DbdUf8aHSYoliSjO6LZv6?si=0a3611cdc5b04c2a" target="_blank">
-                    <img src="/images/songs/sex,drugs,etc.jpg" alt="Sex, Drugs, Etc." class="song_image">
-                </a>
-            </div>
-            <div class="surface">
-                <a href="https://open.spotify.com/track/2WKeTEvN7Wq8O40PoaMb3b?si=9d27f313fd164b1d" target="_blank">
-                    <img src="/images/songs/miss_you.jpg" alt="Miss You" class="song_image">
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="favourites">
-        <h3 class="heading">My Favourite games</h3>
-        <div class="games">
-            <div class="surface">
-                <a href="https://store.steampowered.com/app/319630/Life_is_Strange__Episode_1/" target="_blank">
-                    <img src="/images/games/life_is_strange.webp" alt="Life Is Strange" class="game_image">
-                </a>
-            </div>
-            <div class="surface">
-                <a href="https://www.imdb.com/title/tt7651352/" target="_blank">
-                    <img src="/images/games/ghost_of_tsushima.jpg" alt="Ghost of tsushima" class="game_image">
-                </a>
-            </div>
-            <div class="surface">
-                <a href="https://store.steampowered.com/agecheck/app/814380/" target="_blank">
-                    <img src="/images/games/sekiro.jpg" alt="Sekiro" class="game_image">
-                </a>
-            </div>
-            <div class="surface">
-                <a href="https://store.steampowered.com/app/1888930/The_Last_of_Us_Part_I/" target="_blank">
-                    <img src="/images/games/last_of_us.jpg" alt="The Last Of Us" class="game_image">
-                </a>
-            </div>
-            <div class="surface">
-                <a href="https://store.steampowered.com/app/214490/Alien_Isolation/" target="_blank">
-                    <img src="/images/games/alien_isolation.jpg" alt="Alien Isolation" class="game_image">
-                </a>
-            </div>
-            <div class="surface">
-                <a href="https://store.steampowered.com/app/1740520/Behind_the_Frame_The_Finest_Scenery__Art_Book/" target="_blank">
-                    <img src="/images/games/behind_the_frame.jpg" alt="Behind The Frame" class="game_image">
-                </a>
-            </div>
-            <div class="surface">
-                <a href="https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/" target="_blank">
-                    <img src="/images/games/rdr2.jpg" alt="Read Dead Redemption 2" class="game_image"></a>
-            </div>
-            <div class="surface">
-                <a href="https://store.steampowered.com/app/1593500/God_of_War/" target="_blank">
-                    <img src="/images/games/god_of_war.webp" alt="God of War" class="game_image">
-                </a>
-            </div>
-            <div class="surface">
-                <a href="https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt/" target="_blank">
-                    <img src="/images/games/the_witcher_3.avif" alt="The Witcher 3" class="game_image">
-                </a>
-            </div>
-    </div>
-    </div>
-
         <hr class="horizontal">
         <div class="lower-section-div">
 
@@ -379,7 +169,6 @@
                     </div>
                     <p class="link-text">Spotify</p>
                 </a>
-            </footer>
         </div>
     
 </body>
