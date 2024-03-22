@@ -63,6 +63,10 @@ a {
   text-decoration: none;
 }
 
+section,div {
+  scroll-padding-top: 100px; 
+}
+
 .heading-pop1, .heading-pop2, .heading-pop3 {
   color: var(--clr-light);
   font-family: 'Poppins';
