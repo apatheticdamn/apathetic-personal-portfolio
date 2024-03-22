@@ -36,6 +36,7 @@
     width: auto;
     padding: 20px;
     margin-bottom: 80px;
+    font-size: 13px;
   }
 
   .hobbies-section {
@@ -134,7 +135,7 @@
 
   .skills-paragraph {
     width: auto;
-    font-size: 11px;
+    font-size: 10px;
     padding: 30px;
     margin-bottom: 60px;
   }
@@ -260,7 +261,7 @@
 
   .skills-paragraph {
     width: auto;
-    font-size: 9px;
+    font-size: 7px;
     padding: 30px;
     margin-bottom: 50px;
   }
