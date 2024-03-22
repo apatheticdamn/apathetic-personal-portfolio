@@ -3,6 +3,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 670px;
+  margin: 0 auto;
 }
 
 .hobbies-header {
@@ -32,6 +34,7 @@
 .hobby {
   transition: all 0.3s;
   cursor: pointer;
+  gap: 10px;
 }
 
 .hobby:hover {
