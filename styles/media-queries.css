@@ -116,7 +116,7 @@
     width: 350px;
     height: 440px;
     padding: 20px;
-    padding-top: 20px; 
+    padding-top: 20px;
   }
 
   .apathetic-text {
@@ -176,7 +176,7 @@
   .hero-section {
     margin: 20px 0 0 0;
     gap: 10px;
-    height: 400px; 
+    height: 400px;
   }
 
   .intro-container {
@@ -230,7 +230,7 @@
 
   .about-section {
     width: 270px;
-    height: 320px; 
+    height: 320px;
     padding: 10px;
     padding-top: 20px;
     margin: 0 auto;
@@ -293,7 +293,9 @@
     height: 50px;
   }
 
-  .footer-discord-link, .footer-github-link, .footer-spotify-link {
+  .footer-discord-link,
+  .footer-github-link,
+  .footer-spotify-link {
     width: 14px;
   }
 
@@ -333,13 +335,16 @@
   .intro-header-div {
     line-height: 80px;
   }
-  .heading-pop1, .heading-gen1 {
+  .heading-pop1,
+  .heading-gen1 {
     font-size: 80px;
   }
-  .heading-pop2, .heading-gen2 {
+  .heading-pop2,
+  .heading-gen2 {
     font-size: 60px;
   }
-  .heading-pop3, .heading-gen3 {
+  .heading-pop3,
+  .heading-gen3 {
     font-size: 40px;
   }
   .intro-container {
@@ -416,7 +421,9 @@
     gap: 30px;
   }
 
-  .footer-discord-link, .footer-github-link, .footer-spotify-link {
+  .footer-discord-link,
+  .footer-github-link,
+  .footer-spotify-link {
     width: 30px;
     margin-bottom: 6px;
   }
@@ -433,5 +440,4 @@
   .link-text {
     font-size: 16px;
   }
-
 }

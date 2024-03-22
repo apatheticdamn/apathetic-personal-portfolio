@@ -18,7 +18,6 @@
   cursor: pointer;
   border-radius: 10px;
   filter: brightness(0) invert(1);
-  
 }
 
 .footer-spotify-link,
@@ -42,7 +41,6 @@
 .footer-links-div:hover {
   background-color: rgb(37, 37, 37);
 }
-
 
 .link {
   width: 54px;
@@ -71,4 +69,3 @@
   margin-top: 2px;
   transition: color 0.4s;
 }
-

@@ -7,7 +7,7 @@
 }
 
 .contact-me-button {
-  font-family: 'General sans', sans-serif;
+  font-family: "General sans", sans-serif;
   font-weight: 600;
   font-size: 14px;
   padding: 10px;
@@ -26,10 +26,12 @@
 .contact-me-button:hover {
   background-color: var(--clr-rose);
   color: var(--clr-light);
-  transform: translateY(-5px);  
-  box-shadow: 0 0 10px var(--clr-rose), 0 0 20px var(--clr-rose), 0 0 60px var(--clr-rose); 
+  transform: translateY(-5px);
+  box-shadow: 0 0 10px var(--clr-rose), 0 0 20px var(--clr-rose),
+    0 0 60px var(--clr-rose);
 }
 
 .contact-me-button:active {
-  box-shadow: 0 0 6px var(--clr-rose), 0 0 20px var(--clr-rose), 0 0 60px var(--clr-rose);
+  box-shadow: 0 0 6px var(--clr-rose), 0 0 20px var(--clr-rose),
+    0 0 60px var(--clr-rose);
 }

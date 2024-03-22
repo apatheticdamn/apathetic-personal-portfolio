@@ -11,7 +11,7 @@
   --clr-little-dark: #3b0020;
   --clr-canvas-default: #0a0e1a;
   --border-clr-horizontal: #1a233d;
-  --default-heading-font: 'General Sans';
+  --default-heading-font: "General Sans";
   --bold-font-weight: 800;
 }
 
@@ -19,7 +19,6 @@
   background-color: var(--clr-rose);
   color: var(--clr-light);
 }
-
 
 * {
   margin: 0;
@@ -40,7 +39,8 @@ html {
   scroll-behavior: smooth;
 }
 
-a, img {
+a,
+img {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
@@ -50,7 +50,9 @@ a, img {
   color: var(--clr-light);
 }
 
-p, h1, h3 {
+p,
+h1,
+h3 {
   color: var(--clr-light);
 }
 
@@ -63,18 +65,23 @@ a {
   text-decoration: none;
 }
 
-section,div {
-  scroll-padding-top: 100px; 
+section,
+div {
+  scroll-padding-top: 100px;
 }
 
-.heading-pop1, .heading-pop2, .heading-pop3 {
+.heading-pop1,
+.heading-pop2,
+.heading-pop3 {
   color: var(--clr-light);
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
-.heading-gen1, .heading-gen2, .heading-gen3 {
+.heading-gen1,
+.heading-gen2,
+.heading-gen3 {
   color: var(--clr-light);
-  font-family: 'General Sans';
+  font-family: "General Sans";
 }
 
 .heading-pop1 {
@@ -119,13 +126,12 @@ section,div {
 
 .paragraph-pop-slate600 {
   color: var(--clr-slate600);
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
 .rose-text {
   color: var(--clr-rose);
 }
-
 
 .indigo-text {
   cursor: pointer;

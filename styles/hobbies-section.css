@@ -43,6 +43,13 @@
   transform: translateY(-10px);
 }
 
+.hobby-link {
+  color: var(--clr-slate600);
+}
+
+.hobby-link:hover {
+  color: var(--clr-light);
+}
 
 .computer-hobby, .movies-hobby, .games-hobby {
   display: flex;

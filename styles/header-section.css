@@ -28,8 +28,6 @@
   color: var(--clr-light);
 }
 
-
-
 .nav {
   display: flex;
   margin-left: auto;
@@ -40,19 +38,15 @@
 .nav-buttons {
   text-decoration: none;
   color: var(--clr-light);
-  border-bottom: 2px solid rgba(0,0,0,0);
+  border-bottom: 2px solid rgba(0, 0, 0, 0);
   padding-right: 0px;
   margin-left: 16px;
   padding-bottom: 7px;
   margin-right: 5px;
   transition: color 0.4s, border-color 0.4s;
-  
 }
-
-
 
 .nav-buttons:hover {
   color: var(--clr-rose);
   border-color: var(--clr-rose);
-
 }

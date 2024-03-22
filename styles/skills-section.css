@@ -49,7 +49,6 @@
 }
 
 .languages-and-tools > .js:hover {
-
   color: var(--clr-light);
   border-color: rgb(255, 251, 0);
   cursor: pointer;
