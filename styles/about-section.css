@@ -2,9 +2,10 @@
 .about-section {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   width: 700px;
-  padding: 40px 15px 0 15px;
+  padding: 10px 15px 0 15px;
   height: 500px;
   background-color: var(--clr-canvas-default);
   box-shadow: 5px 5px 20px var(--clr-shadow);
