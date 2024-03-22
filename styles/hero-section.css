@@ -2,9 +2,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 90px 100px 100px 100px;
-  height: 500px;
+  margin: 0px 100px 120px 100px;
+  height: 700px;
   gap: 40px;
+  padding-top: 130px;
 }
 
 .intro-container {
@@ -25,7 +26,9 @@
 
 .wave-emoji {
   display: inline-block;
-  transform-origin: 75% 1020%;
+  animation: waveEmoji 2s infinite ease;
+  transform-origin: bottom right;
+  animation-delay: -2s;
 }
 
 .intro-paragraph {
@@ -47,9 +50,5 @@
 }
 
 .apathetic {
-  text-shadow: 0 0px 10px rgba(225, 29, 72, 0.3), 
-                 0 0px 20px rgba(225, 29, 72, 0.2), 
-                 0 0px 30px rgba(225, 29, 72, 0.6), 
-                 0 0px 40px rgba(225, 29, 72, 0.2), 
-                 0 0px 50px rgba(225, 29, 72, 0.3);
+  animation: glowRose 2s infinite;
 }
