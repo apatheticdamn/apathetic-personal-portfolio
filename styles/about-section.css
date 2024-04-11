@@ -12,14 +12,13 @@
   border-bottom-right-radius: 80px;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
-  margin: 0 auto;
-  margin-bottom: 100px;
+  margin: 100px auto;
 }
 
 .about-section__heading {
   font-family: Poppins, sans-serif;
   font-size: 24px;
-  color: var(--clr-heading);
+  color: var(--clr-light);
   margin-bottom: 16px;
 }
 
@@ -37,7 +36,7 @@
 
 .about-section__apathetic-text,
 .about-section__indigo-text,
-.about-section__red-text {
+.about-section__rose-text {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: bold;
@@ -45,6 +44,26 @@
   transition: color 0.5s;
 }
 
-.about-section__apathetic-text:hover {
-  text-shadow: 0 0 10px var(--clr-rose);
+.about-section__indigo-text {
+  color: var(--clr-indigo);
+  transition: all 0.3s;
 }
+.about-section__rose-text {
+  color: var(--clr-rose);
+  transition: all 0.3s;
+}
+
+.about-section__rose-text:hover {
+  text-shadow:
+    0 0 5px rgba(225, 29, 72, 0.2),
+    0 0 10px rgba(225, 29, 72, 0.5), 
+    0 0 15px rgba(225, 29, 72, 0.5);
+}
+
+.about-section__indigo-text:hover {
+  text-shadow:
+    0 0 5px rgba(65, 55, 248, 0.2),
+    0 0 10px rgba(65, 55, 248, 0.5), 
+    0 0 15px rgba(65, 55, 248, 0.5);
+}
+
