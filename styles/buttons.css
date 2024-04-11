@@ -1,4 +1,4 @@
-.hero-section__contact-section {
+.contact-section {
   margin: 30px 0px 40px 0px;
   display: flex;
   flex-direction: row;
@@ -19,8 +19,8 @@
   color: var(--clr-rose);
   transition: all 0.4s;
   cursor: pointer;
-  margin-top: 10px;
-  width: 150px;
+  width: 130px;
+  height: 45px;
 }
 
 .contact-me-button:hover {
