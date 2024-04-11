@@ -36,55 +36,55 @@
   transition: all 0.2s;
 }
 
-.languages-and-tools > .html:hover {
+.languages-and-tools > .lang--html:hover {
   color: var(--clr-light);
   border-color: rgb(255, 51, 0);
   cursor: pointer;
 }
 
-.languages-and-tools > .css:hover {
+.languages-and-tools > .lang--css:hover {
   color: var(--clr-light);
   border-color: rgb(0, 153, 255);
   cursor: pointer;
 }
 
-.languages-and-tools > .js:hover {
+.languages-and-tools > .lang--js:hover {
   color: var(--clr-light);
   border-color: rgb(255, 251, 0);
   cursor: pointer;
 }
 
-.languages-and-tools > .py:hover {
+.languages-and-tools > .lang--py:hover {
   color: var(--clr-light);
   border-color: var(--clr-rose);
   cursor: pointer;
 }
 
-.languages-and-tools > .c:hover {
+.languages-and-tools > .lang--c:hover {
   color: var(--clr-light);
   border-color: rgb(0, 47, 255);
   cursor: pointer;
 }
 
-.languages-and-tools > .md:hover {
+.languages-and-tools > .lang--md:hover {
   color: var(--clr-light);
   border-color: rgb(204, 204, 204);
   cursor: pointer;
 }
 
-.languages-and-tools > .git:hover {
+.languages-and-tools > .lang--git:hover {
   color: var(--clr-light);
   border-color: rgb(255, 51, 0);
   cursor: pointer;
 }
 
-.languages-and-tools > .gh:hover {
+.languages-and-tools > .lang--gh:hover {
   color: var(--clr-light);
   border-color: rgb(0, 0, 0);
   cursor: pointer;
 }
 
-.languages-and-tools > .nvim:hover {
+.languages-and-tools > .lang--nvim:hover {
   color: var(--clr-light);
   border-color: rgb(36, 172, 18);
   cursor: pointer;

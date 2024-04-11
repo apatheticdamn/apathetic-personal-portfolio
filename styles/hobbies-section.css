@@ -51,7 +51,7 @@
   color: var(--clr-light);
 }
 
-.computer-hobby, .movies-hobby, .games-hobby {
+.computer--hobby, .movies--hobby, .games--hobby {
   display: flex;
   flex-direction: column;
   justify-content: center;
