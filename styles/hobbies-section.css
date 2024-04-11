@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   width: 670px;
-  margin: 0 auto;
+  margin: 100px auto;
 }
 
 .hobbies-section__header {
@@ -14,10 +14,8 @@
 }
 
 .hobbies-section__hobbies {
-  display: grid;
-  grid-template-columns: repeat(4, 150px);
-  place-content: center;
-  place-items: center;
+  display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   color: var(--clr-slate600);
   font-family: 'General Sans', sans-serif;
@@ -27,7 +25,7 @@
 }
 
 .hobbies-section__heading {
-  margin: 0 0 20px 0;
+  margin: 0 0 30px 0;
 }
 
 .hobbies-section__hobby {
