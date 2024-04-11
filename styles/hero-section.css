@@ -1,19 +1,23 @@
 .hero-section {
+  max-width: 800px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0px 100px 120px 100px;
+  margin: 30px auto;
   height: 700px;
   gap: 40px;
-  padding-top: 130px;
+  padding: 50px 20px;
 }
 
 .hero-section__intro-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  width: 400px;
+  width: auto;
+}
+
+.hero-section__intro-container > * {
+  margin-bottom: 10px;
 }
 
 .intro-header-div {
@@ -33,8 +37,8 @@
 
 .intro-paragraph {
   text-align: center;
-  width: 400px;
-  margin: 5px 0 0 0;
+  max-width: 396px;
+  margin: 5px 0 39px 0;
 }
 
 .hero-section__mai-san-full-body-div {
