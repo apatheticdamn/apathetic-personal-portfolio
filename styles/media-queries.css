@@ -43,7 +43,7 @@
     width: 360px;
   }
 
-  .hobbies {
+  .hobbies-section__hobbies {
     width: 360px;
     grid-template-columns: 140px 140px;
     grid-row-gap: 20px;
@@ -54,6 +54,10 @@
 @media (max-width: 609px) {
   .header {
     height: 50px;
+  }
+
+  .header__mai-san-logo {
+    width: 23px;
   }
 
   .header-website-name {
@@ -140,14 +144,19 @@
     margin-bottom: 60px;
   }
 
-  .hobbies {
+  .hobbies-section {
+    width: 300px;
+    padding: 0;
+  }
+
+  .hobbies-section__hobbies {
     width: 300px;
     grid-template-columns: 140px 140px;
     grid-row-gap: 20px;
     grid-column-gap: 5px;
   }
 
-  .hobby {
+  .hobbies-section__hobby {
     width: 120px;
     height: 100px;
     font-size: 11px;
@@ -155,7 +164,7 @@
     border-width: 1px;
   }
 
-  .hobby-imgs {
+  .hobbies-section__hobby-img {
     width: 30px;
   }
 }
@@ -165,7 +174,7 @@
     height: 40px;
   }
 
-  .header-website-name {
+  .header__website-name {
     font-size: 11px;
   }
 
@@ -216,7 +225,7 @@
     width: 70px;
   }
 
-  .mai-san-logo {
+  .header__mai-san-logo {
     width: 20px;
   }
 
@@ -271,20 +280,20 @@
     padding: 0;
   }
 
-  .hobbies {
+  .hobbies-section__hobbies {
     width: 250px;
     grid-template-columns: 110px 110px;
     grid-row-gap: 16px;
     grid-column-gap: 5px;
   }
 
-  .hobby {
+  .hobbies-section__hobby {
     width: 100px;
     height: 80px;
     font-size: 9px;
   }
 
-  .hobby-imgs {
+  .hobbies-section__hobby-img {
     width: 20px;
   }
 

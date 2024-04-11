@@ -8,7 +8,7 @@
   padding-top: 130px;
 }
 
-.intro-container {
+.hero-section__intro-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -37,7 +37,7 @@
   margin: 5px 0 0 0;
 }
 
-.mai-san-full-body-div {
+.hero-section__mai-san-full-body-div {
   display: flex;
   justify-content: top;
   align-items: top;

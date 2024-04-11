@@ -12,23 +12,23 @@
   padding-bottom: 30px;
 }
 
-.footer-instagram-link,
-.footer-discord-link {
+.footer-section__instagram-link,
+.footer-section__discord-link {
   width: 19px;
   cursor: pointer;
   border-radius: 10px;
   filter: brightness(0) invert(1);
 }
 
-.footer-spotify-link,
-.footer-github-link {
+.footer-section__spotify-link,
+.footer-section__github-link {
   width: 19px;
   cursor: pointer;
   border-radius: 15px;
   filter: brightness(0) invert(1);
 }
 
-.footer-links-div {
+.footer-section__links-div {
   padding: 5px;
   display: flex;
   justify-content: center;
@@ -38,11 +38,11 @@
   cursor: pointer;
 }
 
-.footer-links-div:hover {
+.footer-section__links-div:hover {
   background-color: rgb(37, 37, 37);
 }
 
-.link {
+.footer-section__link {
   width: 54px;
   text-decoration: none;
   display: flex;
@@ -53,11 +53,11 @@
   cursor: default;
 }
 
-.link:hover .link-text {
+.footer-section__link:hover .footer-section__link-text {
   color: var(--clr-rose);
 }
 
-.link-text {
+.footer-section__link-text {
   margin: 0;
   display: flex;
   justify-content: center;

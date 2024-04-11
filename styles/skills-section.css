@@ -3,14 +3,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 0 0 0;
+  margin: 0;
 }
 
-.skills-header {
+.skills-section__header {
   margin: 0 0 20px 0;
 }
 
-.languages-and-tools {
+.skills-section__languages-and-tools {
   display: grid;
   grid-template-columns: 100px 100px 100px;
   place-content: center;
@@ -21,7 +21,7 @@
   font-weight: bold;
 }
 
-.lang {
+.skills-section__lang {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,65 +32,51 @@
   border-color: var(--clr-slate600);
   border-radius: 10px;
   border-width: 2px;
-
   transition: all 0.2s;
 }
 
-.languages-and-tools > .lang--html:hover {
+.skills-section__lang:hover {
   color: var(--clr-light);
-  border-color: rgb(255, 51, 0);
   cursor: pointer;
 }
 
-.languages-and-tools > .lang--css:hover {
-  color: var(--clr-light);
+.skills-section__lang--html:hover {
+  border-color: rgb(255, 51, 0);
+}
+
+.skills-section__lang--css:hover {
   border-color: rgb(0, 153, 255);
-  cursor: pointer;
 }
 
-.languages-and-tools > .lang--js:hover {
-  color: var(--clr-light);
+.skills-section__lang--js:hover {
   border-color: rgb(255, 251, 0);
-  cursor: pointer;
 }
 
-.languages-and-tools > .lang--py:hover {
-  color: var(--clr-light);
+.skills-section__lang--py:hover {
   border-color: var(--clr-rose);
-  cursor: pointer;
 }
 
-.languages-and-tools > .lang--c:hover {
-  color: var(--clr-light);
+.skills-section__lang--c:hover {
   border-color: rgb(0, 47, 255);
-  cursor: pointer;
 }
 
-.languages-and-tools > .lang--md:hover {
-  color: var(--clr-light);
+.skills-section__lang--md:hover {
   border-color: rgb(204, 204, 204);
-  cursor: pointer;
 }
 
-.languages-and-tools > .lang--git:hover {
-  color: var(--clr-light);
+.skills-section__lang--git:hover {
   border-color: rgb(255, 51, 0);
-  cursor: pointer;
 }
 
-.languages-and-tools > .lang--gh:hover {
-  color: var(--clr-light);
+.skills-section__lang--gh:hover {
   border-color: rgb(0, 0, 0);
-  cursor: pointer;
 }
 
-.languages-and-tools > .lang--nvim:hover {
-  color: var(--clr-light);
+.skills-section__lang--nvim:hover {
   border-color: rgb(36, 172, 18);
-  cursor: pointer;
 }
 
-.skills-paragraph {
+.skills-section__paragraph {
   display: inline;
   text-align: center;
   font-family: Poppins, sans-serif;
@@ -103,7 +89,7 @@
   color: var(--clr-slate600);
 }
 
-.skills-full-paragraph-div {
+.skills-section__full-paragraph-div {
   display: flex;
   width: auto;
 }

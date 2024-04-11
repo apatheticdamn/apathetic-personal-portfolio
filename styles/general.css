@@ -70,65 +70,40 @@ div {
   scroll-padding-top: 100px;
 }
 
-.heading-pop1,
-.heading-pop2,
-.heading-pop3 {
+/* Headings */
+.main-heading {
   color: var(--clr-light);
   font-family: "Poppins";
 }
 
-.heading-gen1,
-.heading-gen2,
-.heading-gen3 {
+.sub-heading {
   color: var(--clr-light);
   font-family: "General Sans";
 }
 
-.heading-pop1 {
+.heading-large {
   font-size: 60px;
 }
 
-.heading-pop2 {
+.heading-medium {
   font-size: 40px;
 }
 
-.heading-pop3 {
+.heading-small {
   font-size: 20px;
 }
 
-.heading-pop4 {
+.heading-extra-small {
   font-size: 6px;
 }
 
-.heading-pop5 {
-  font-size: 4px;
-}
-
-.heading-gen1 {
-  font-size: 60px;
-}
-
-.heading-gen2 {
-  font-size: 40px;
-}
-
-.heading-gen3 {
-  font-size: 20px;
-}
-
-.heading-gen4 {
-  font-size: 6px;
-}
-
-.heading-gen5 {
-  font-size: 4px;
-}
-
-.paragraph-pop-slate600 {
+/* Paragraphs */
+.main-paragraph {
   color: var(--clr-slate600);
   font-family: "Poppins";
 }
 
+/* Text Colors */
 .rose-text {
   color: var(--clr-rose);
 }

@@ -16,7 +16,7 @@
   overflow: hidden;
 }
 
-.mai-san-logo {
+.header__mai-san-logo {
   width: 30px;
   border-radius: 25px;
   display: block;
@@ -24,11 +24,11 @@
   margin-left: 15px;
 }
 
-.header-website-name {
+.header__website-name {
   color: var(--clr-light);
 }
 
-.nav {
+.header__nav {
   display: flex;
   margin-left: auto;
   align-items: center;

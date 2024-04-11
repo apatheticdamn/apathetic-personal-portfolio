@@ -16,7 +16,14 @@
   margin-bottom: 100px;
 }
 
-.about-section-text {
+.about-section__heading {
+  font-family: Poppins, sans-serif;
+  font-size: 24px;
+  color: var(--clr-heading);
+  margin-bottom: 16px;
+}
+
+.about-section__text {
   width: 100%;
   font-family: Poppins, sans-serif;
   font-size: 16px;
@@ -28,17 +35,16 @@
   white-space: normal;
 }
 
-.apathetic-text {
+.about-section__apathetic-text,
+.about-section__indigo-text,
+.about-section__red-text {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-weight: bold;
   cursor: pointer;
   transition: color 0.5s;
-  color: var(--clr-rose);
-  font-weight: bold;
-  transition: all 0.4s ease;
 }
 
-.apathetic-text:hover {
+.about-section__apathetic-text:hover {
   text-shadow: 0 0 10px var(--clr-rose);
 }

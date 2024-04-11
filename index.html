@@ -34,28 +34,30 @@
     <span class="message-text">
       You cannot use this website on your device
     </span>
+
     <header class="header">
       <img
         src="images/mai-san-images/mai-san-pfp.jpg"
         alt="mai-san-logo"
-        class="mai-san-logo"
+        class="header__mai-san-logo"
       />
-      <span class="header-website-name"> Apathetic </span>
+      <span class="header__website-name"> Apathetic </span>
+      <nav class="header__nav">
         <div class="nav-item-group">
-          <a href="#home" class="nav-buttons">Home </a>
-          <a href="#about" class="nav-buttons">About me </a>
+          <a href="#home" class="nav-buttons">Home</a>
+          <a href="#about" class="nav-buttons">About me</a>
         </div>
         <div class="nav-item-group">
-          <a href="#skills" class="nav-buttons"> Skills </a>
-          <a href="#home" class="nav-buttons contact-me-nav-button"
-            >Contact me
-          </a>
+          <a href="#skills" class="nav-buttons">Skills</a>
+          <a href="#contact" class="nav-buttons contact-me-nav-button"
+            >Contact me</a
+          >
         </div>
       </nav>
     </header>
 
     <section id="home" class="hero-section">
-      <div class="intro-container">
+      <div class="hero-section__intro-container">
         <div class="intro-header-div">
           <div class="intro-header">
             <h2 class="heading-pop2">
@@ -86,7 +88,7 @@
             cutting-edge technologies.
           </p>
         </div>
-        <div class="contact-section" id="contact">
+        <div class="hero-section__contact-section" id="contact">
           <a href="mailto: apathetic.damn@gmail.com">
             <button id="contact-me" class="contact-me-button">
               Contact Me
@@ -94,7 +96,7 @@
           </a>
         </div>
       </div>
-      <div class="mai-san-full-body-div">
+      <div class="hero-section__mai-san-full-body-div">
         <img
           src="images/mai-san-images/mai-san-full-body.webp"
           alt="mai-san-full-body-pic"
@@ -103,23 +105,24 @@
       </div>
     </section>
 
-    <section class="about-section" id="about">
-      <h3 class="heading-pop3">About me</h3>
-      <p class="about-section-text">
-        <span class="apathetic-text">Apathetic</span>, I don't mean that in a
-        bad way. I just don't get worked up about things very easily. I'm not
-        easily excited or disappointed. I'm not easily angered or saddened.
-        <br /><br />
+    <section class="about-section">
+      <h3 class="about-section__heading sub-heading">About me</h3>
+      <p class="about-section__text">
+        <span class="about-section__apathetic-text">Apathetic</span>, I don't
+        mean that in a bad way. I just don't get worked up about things very
+        easily. I'm not easily excited or disappointed. I'm not easily angered
+        or saddened. <br /><br />
         But that doesn't mean I don't care. I do care. I care about my
-        <span class="indigo-text">work</span>. I care about my
-        <span class="indigo-text">friends</span>. I care about the
-        <span class="indigo-text">world</span>. I just don't let my emotions
-        control me. I don't let them get in the way of my thinking. <br /><br />
-        I'm a <span class="red-text">programmer</span>. I'm a
-        <span class="red-text">problem solver</span>. I'm a
-        <span class="red-text">creator</span>. I use my skills to make things. I
-        use my skills to solve problems. I use my skills to make the world a
-        better place. <br /><br />
+        <span class="about-section__indigo-text">work</span>. I care about my
+        <span class="about-section__indigo-text">friends</span>. I care about
+        the <span class="about-section__indigo-text">world</span>. I just don't
+        let my emotions control me. I don't let them get in the way of my
+        thinking. <br /><br />
+        I'm a <span class="about-section__red-text">programmer</span>. I'm a
+        <span class="about-section__red-text">problem solver</span>. I'm a
+        <span class="about-section__red-text">creator</span>. I use my skills to
+        make things. I use my skills to solve problems. I use my skills to make
+        the world a better place. <br /><br />
         Of course, I'm not without flaws. Like everyone, I am prone to making
         errors, but I don't view these as setbacks. Instead, I embrace them as
         opportunities for growth and learning. Continual self-improvement
@@ -129,28 +132,35 @@
     </section>
 
     <section class="skills-section">
-      <div class="skills-header">
-        <h3 id="skills" class="heading-pop3">Skillset</h3>
+      <div class="skills-section__header">
+        <h3 id="skills" class="skills-section__heading">Skillset</h3>
       </div>
-      <div class="languages-and-tools">
-        <div class="lang lang--html">HTML</div>
-        <div class="lang lang--css">CSS</div>
-        <div class="lang lang--js">JavaScript</div>
-        <div class="lang lang--py">Python</div>
-        <div class="lang lang--c">C</div>
-        <div class="lang lang--md">Markdown</div>
-        <div class="lang lang--git">Git</div>
-        <div class="lang lang--gh">Github</div>
-        <div class="lang lang--nvim">Neovim</div>
+      <div class="skills-section__languages-and-tools">
+        <div class="skills-section__lang skills-section__lang--html">HTML</div>
+        <div class="skills-section__lang skills-section__lang--css">CSS</div>
+        <div class="skills-section__lang skills-section__lang--js">
+          JavaScript
+        </div>
+        <div class="skills-section__lang skills-section__lang--py">Python</div>
+        <div class="skills-section__lang skills-section__lang--c">C</div>
+        <div class="skills-section__lang skills-section__lang--md">
+          Markdown
+        </div>
+        <div class="skills-section__lang skills-section__lang--git">Git</div>
+        <div class="skills-section__lang skills-section__lang--gh">Github</div>
+        <div class="skills-section__lang skills-section__lang--nvim">
+          Neovim
+        </div>
       </div>
-      <div class="skills-full-paragraph-div">
-        <p class="skills-paragraph">
+      <div class="skills-section__full-paragraph-div">
+        <p class="skills-section__paragraph">
           Well, I'm pretty good with
           <span style="color: rgb(255, 47, 0); font-weight: bold">HTML</span>,
           <span style="color: rgb(0, 183, 255); font-weight: bold">CSS</span>,
           <span style="color: rgb(246, 255, 0); font-weight: bold"
             >JavaScript</span
-          >,
+          >
+          ,
           <span style="color: var(--clr-rose); font-weight: bold">Python</span>
           & <span style="color: rgb(0, 47, 255); font-weight: bold">C</span>. I
           know the ins and outs of these languages and how to use them to build
@@ -159,44 +169,61 @@
         </p>
       </div>
     </section>
+
     <section class="hobbies-section">
       <div class="hobbies-header">
-        <h3 id="hobbies" class="heading-pop3">Hobbies</h3>
+        <h3 id="hobbies" class="hobbies-section__heading">Hobbies</h3>
       </div>
-      <div class="hobbies">
-        <a onclick="openWebDevHobbyLink()" class="hobby-link" target="_blank">
-          <div class="hobby computer--hobby">
+      <div class="hobbies-section__hobbies">
+        <a
+          onclick="openWebDevHobbyLink()"
+          class="hobbies-section__hobby-link"
+          target="_blank"
+        >
+          <div class="hobbies-section__hobby hobbies-section__computer--hobby">
             <img
               src="images/web/web-dev-icon.png"
               alt="Web Development"
-              class="hobby-imgs"
-            />Web Devlopment
+              class="hobbies-section__hobby-img"
+            />Web Development
           </div>
         </a>
-        <a onclick="openGameDevHobbyLink()" class="hobby-link" target="_blank">
-          <div class="hobby computer--hobby">
+        <a
+          onclick="openGameDevHobbyLink()"
+          class="hobbies-section__hobby-link"
+          target="_blank"
+        >
+          <div class="hobbies-section__hobby hobbies-section__computer--hobby">
             <img
               src="images/games/game-development-icon.png"
               alt="Game Development"
-              class="hobby-imgs"
-            />Game Devlopment
+              class="hobbies-section__hobby-img"
+            />Game Development
           </div>
         </a>
-        <a onclick="openMoviesHobbyLink()" class="hobby-link" target="_blank">
-          <div class="hobby movies--hobby">
+        <a
+          onclick="openMoviesHobbyLink()"
+          class="hobbies-section__hobby-link"
+          target="_blank"
+        >
+          <div class="hobbies-section__hobby hobbies-section__movies--hobby">
             <img
               src="images/movies-and-shows/movies-icon.png"
               alt="Movies & Shows"
-              class="hobby-imgs"
+              class="hobbies-section__hobby-img"
             />Movies
           </div>
         </a>
-        <a onclick="openGamesHobbyLink()" class="hobby-link" target="_blank">
-          <div class="hobby games--hobby">
+        <a
+          onclick="openGamesHobbyLink()"
+          class="hobbies-section__hobby-link"
+          target="_blank"
+        >
+          <div class="hobbies-section__hobby hobbies-section__games--hobby">
             <img
               src="images/movies-and-shows/movies-icon.png"
               alt="Games"
-              class="hobby-imgs"
+              class="hobbies-section__hobby-img"
             />Games
           </div>
         </a>
@@ -206,46 +233,51 @@
     <hr class="horizontal" />
     <section class="footer-section">
       <a
-        class="link"
+        class="footer-section__link"
         href="https://discord.com/invite/7zE6zr3Ys2"
         target="_blank"
       >
-        <div class="footer-links-div">
+        <div class="footer-section__links-div">
           <img
-            class="footer-discord-link"
+            class="footer-section__discord-link"
             src="icons/dark/icons8-discord-500.png"
             alt="discord-logo"
           />
         </div>
-        <p class="link-text">Discord</p>
+        <p class="footer-section__link-text">Discord</p>
       </a>
 
-      <a class="link" href="https://github.com/ApatheticDamn" target="_blank">
-        <div class="footer-links-div">
+      <a
+        class="footer-section__link"
+        href="https://github.com/ApatheticDamn"
+        target="_blank"
+      >
+        <div class="footer-section__links-div">
           <img
-            class="footer-github-link"
+            class="footer-section__github-link"
             src="icons/dark/icons8-github-480.png"
             alt="github-logo"
           />
         </div>
-        <p class="link-text">Github</p>
+        <p class="footer-section__link-text">Github</p>
       </a>
 
       <a
-        class="link"
+        class="footer-section__link"
         href="https://open.spotify.com/playlist/6cHhrkvftGIuT1vaxP7iMZ"
         target="_blank"
       >
-        <div class="footer-links-div">
+        <div class="footer-section__links-div">
           <img
-            class="footer-spotify-link"
+            class="footer-section__spotify-link"
             src="icons/dark/icons8-spotify-500.png"
             alt="spotify-logo"
           />
         </div>
-        <p class="link-text">Spotify</p>
+        <p class="footer-section__link-text">Spotify</p>
       </a>
     </section>
+
     <script src="./src/links.js"></script>
     <script src="./src/main.js"></script>
     <script src="./src/counter.js"></script>
