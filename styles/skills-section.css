@@ -3,11 +3,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0;
+  margin: 100px auto;
 }
 
 .skills-section__header {
-  margin: 0 0 20px 0;
+  margin: 0 0 30px 0;
 }
 
 .skills-section__languages-and-tools {
@@ -80,8 +80,8 @@
   display: inline;
   text-align: center;
   font-family: Poppins, sans-serif;
-  padding-bottom: 100px;
-  width: 500px;
+  width: auto;
+  max-width: 600px;
   line-height: 20px;
   font-size: 13px;
   padding-top: 30px;
