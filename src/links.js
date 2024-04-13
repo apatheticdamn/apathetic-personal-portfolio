@@ -14,14 +14,14 @@ function openGameDevHobbyLink() {
 }
 function openMoviesHobbyLink() {
   window.open(
-    "/pages/movies/movies.html",
+    "https://apathetic.vercel.app/pages/games/games.html",
     "",
     "width=640, height=480"
   );
 }
 function openGamesHobbyLink() {
   window.open(
-    "/pages/games/games.html",
+    "https://apathetic.vercel.app/pages/games/games.html",
     "",
     "width=640, height=480"
   );
