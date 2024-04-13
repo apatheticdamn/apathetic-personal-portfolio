@@ -37,6 +37,7 @@ body {
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 80px;
 }
 
 a,
@@ -63,11 +64,6 @@ body {
 a {
   color: var(--clr-rose);
   text-decoration: none;
-}
-
-section,
-div {
-  scroll-padding-top: 100px;
 }
 
 /* Headings */
