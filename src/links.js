@@ -14,14 +14,14 @@ function openGameDevHobbyLink() {
 }
 function openMoviesHobbyLink() {
   window.open(
-    "pages/games/games.html",
+    "pages/movies/movies.html",
     "",
     "width=640, height=480"
   );
 }
 function openGamesHobbyLink() {
   window.open(
-    "/pages/movies/moves.html",
+    "pages/games/games.html",
     "",
     "width=640, height=480"
   );
