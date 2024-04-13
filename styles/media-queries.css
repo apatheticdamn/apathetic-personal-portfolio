@@ -6,6 +6,14 @@
   }
 }
 
+@media (max-width: 1440px) {
+  .hero-section {
+    gap: 50px;
+    padding-top: 38px;
+    margin: 100px auto !important;
+  }
+}
+
 @media (max-width: 1366px) {
   .hero-section {
     gap: 50px;
@@ -13,6 +21,7 @@
     margin: 100px auto !important;
   }
 }
+
 
 @media (max-width: 768px) {
   .header {
