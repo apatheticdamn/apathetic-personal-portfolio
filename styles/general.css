@@ -1,14 +1,12 @@
 :root {
   --clr-gray: #030712;
   --clr-light: #f1f4f9;
-  --clr-rose: #e11d48;
-  --clr-indigo: #4137f8;
-  --clr-rose-dark: #720f24;
+  --clr-blood-red: #bb0a1e; /* rgb(187, 10, 30) */
+  --clr-indigo: #4338ca; /* rgb(67, 56, 202) */
   --clr-slate400: #bfbfbf;
   --clr-slate600: #677384;
   --clr-dark: #070a13;
-  --clr-shadow: #04060e;
-  --clr-little-dark: #3b0020;
+  --clr-shadow: #04060e; /* rgb(4, 6, 14) */
   --clr-canvas-default: #0a0e1a;
   --border-clr-horizontal: #1a233d;
   --default-heading-font: "General Sans";
@@ -16,7 +14,7 @@
 }
 
 ::selection {
-  background-color: var(--clr-rose);
+  background-color: var(--clr-blood-red);
   color: var(--clr-light);
 }
 
@@ -29,6 +27,11 @@
 strong {
   color: var(--clr-indigo);
 }
+
+span {
+  color: var(--clr-blood-red);
+}
+
 
 body {
   background-color: var(--clr-dark);
@@ -62,7 +65,7 @@ body {
 }
 
 a {
-  color: var(--clr-rose);
+  color: var(--clr-blood-red);
   text-decoration: none;
 }
 
@@ -133,8 +136,15 @@ a {
 }
 
 /* Text Colors */
-.rose-text {
-  color: var(--clr-rose);
+.blood-red-text {
+  color: var(--clr-blood-red);
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.blood-red-text:hover {
+  text-shadow: 0 0 10px var(--clr-blood-red);
 }
 
 .indigo-text {
@@ -149,13 +159,3 @@ a {
   text-shadow: 0 0 10px var(--clr-indigo);
 }
 
-.red-text {
-  color: var(--clr-rose);
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.4s ease;
-}
-
-.red-text:hover {
-  text-shadow: 0 0 10px var(--clr-rose);
-}
