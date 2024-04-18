@@ -17,7 +17,7 @@
   overflow: hidden;
 }
 
-.header__mai-san-logo {
+.header__sasaki-kojiro-logo {
   width: 30px;
   border-radius: 25px;
   display: block;
@@ -48,6 +48,6 @@
 }
 
 .nav-buttons:hover {
-  color: var(--clr-rose);
-  border-color: var(--clr-rose);
+  color: var(--clr-blood-red);
+  border-color: var(--clr-blood-red);
 }
