@@ -16,14 +16,14 @@
   }
 }
 
-@keyframes glowRose {
+@keyframes glowCrimsonRed {
   0% {
-    text-shadow: 0 0 20px rgba(225, 29, 72, 0.5);
+    text-shadow: 0 0 20px rgba(153, 0, 0, 0.5);
   }
   50% {
-    text-shadow: 0 0 30px rgba(225, 29, 72, 1.0);
+    text-shadow: 0 0 30px rgba(153, 0, 0, 1.0);
   }
   100% {
-    text-shadow: 0 0 20px rgba(225, 29, 72, 0.5);
+    text-shadow: 0 0 20px rgba(153, 0, 0, 0.5);
   }
 }
